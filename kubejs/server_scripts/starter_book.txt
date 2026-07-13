@@ -1,0 +1,19 @@
+const STARTER_GUIDE_FLAG = 'gotMinecraftStartGuideModonomicon'
+const STARTER_GUIDE_STACK = 'modonomicon:modonomicon[modonomicon:book_id="kubejs:minecraft_start_guide"]'
+const STARTER_GUIDE_DELAY = 220
+
+function giveStarterGuide(event, player) {
+  const pData = player.persistentData
+  if (pData.getBoolean(STARTER_GUIDE_FLAG)) return
+
+  event.server.scheduleInTicks(STARTER_GUIDE_DELAY, () => {
+    if (!pData.getBoolean(STARTER_GUIDE_FLAG)) {
+      player.give(STARTER_GUIDE_STACK)
+      pData.putBoolean(STARTER_GUIDE_FLAG, true)
+    }
+  })
+}
+
+PlayerEvents.loggedIn(event => {
+  giveStarterGuide(event, event.player)
+})

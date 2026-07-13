@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:gunpowder"
+	}
+	id: "63389879BD3656BD"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 8
+			id: "63389879BD365601"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+		}
+		{
+			count: 8
+			id: "63389879BD365602"
+			item: {
+				count: 1
+				id: "minecraft:fire_charge"
+			}
+		}
+		{
+			count: 8
+			id: "63389879BD365603"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+		}
+		{
+			count: 8
+			id: "63389879BD365604"
+			item: {
+				count: 1
+				id: "minecraft:rabbit_hide"
+			}
+		}
+		{
+			count: 8
+			id: "63389879BD365605"
+			item: {
+				count: 1
+				id: "minecraft:feather"
+			}
+		}
+		{
+			count: 8
+			id: "63389879BD365606"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+		}
+	]
+	use_title: true
+}

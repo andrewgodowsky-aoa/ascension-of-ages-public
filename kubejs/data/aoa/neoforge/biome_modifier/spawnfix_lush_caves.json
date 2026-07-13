@@ -1,0 +1,8 @@
+{
+  "_comment": "AoA modded-biome spawn fix: CNB sporeling already uses #c:is_mushroom and #c:is_swamp tags (fine), but its lush_caves entry is an explicit vanilla ID. Re-add on #c:is_lush (RU + Terralith populate it) so sporelings appear in modded lush caves. Weight mirrors CNB's lush_caves cost entry.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_lush",
+  "spawners": [
+    { "type": "cnb:sporeling", "weight": 90, "minCount": 3, "maxCount": 5 }
+  ]
+}

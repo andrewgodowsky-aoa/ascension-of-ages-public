@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:golden_apple"
+	}
+	id: "6F699648DC0EE3F8"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 8
+			id: "6F699648DC0EE301"
+			item: {
+				count: 1
+				id: "minecraft:mushroom_stew"
+			}
+		}
+		{
+			count: 8
+			id: "6F699648DC0EE302"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 8
+			id: "6F699648DC0EE303"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_pie"
+			}
+		}
+		{
+			count: 8
+			id: "6F699648DC0EE304"
+			item: {
+				count: 1
+				id: "minecraft:cookie"
+			}
+		}
+		{
+			count: 8
+			id: "6F699648DC0EE305"
+			item: {
+				count: 1
+				id: "minecraft:rabbit_stew"
+			}
+		}
+		{
+			count: 8
+			id: "6F699648DC0EE306"
+			item: {
+				count: 1
+				id: "minecraft:suspicious_stew"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "minecraft:purple_dye"
+	}
+	id: "28F9FDA67FEACEE2"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ id: "6D79444198DF2A9C", item: { count: 1, id: "minecraft:purple_dye" } }
+		{ id: "04BD90C2164B80C5", item: { count: 1, id: "minecraft:purple_candle" } }
+		{
+			count: 4
+			id: "2CDDFC444C0ABD92"
+			item: {
+				count: 1
+				id: "minecraft:purple_wool"
+			}
+		}
+		{
+			count: 4
+			id: "1F0B4E601DA21FD9"
+			item: {
+				count: 1
+				id: "minecraft:purple_concrete_powder"
+			}
+		}
+		{
+			count: 4
+			id: "4A59D871FC17E293"
+			item: {
+				count: 1
+				id: "minecraft:purple_glazed_terracotta"
+			}
+		}
+	]
+	use_title: true
+}

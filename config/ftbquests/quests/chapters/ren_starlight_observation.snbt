@@ -1,0 +1,1551 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "ren_starlight_observation"
+	group: "0B038EB15EBBFD95"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "eternal_starlight:lunar_crystal"
+	}
+	id: "0B03001000000004"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B03107000000050"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "eternal_starlight:lunar_crystal"
+			}
+			id: "0B03104000000001"
+			rewards: [{
+				id: "0B03304000000001"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.5d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				dimension: "minecraft:overworld"
+				id: "0B03204000000001"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03104000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000010"
+			rewards: [{
+				id: "0B03304000000010"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000010"
+				structure: "eternal_starlight:portal_ruins_common"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03104000000010"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000011"
+			optional: true
+			rewards: [
+				{
+					id: "0B03304000000011"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "377F98E91D77C14E"
+					table_id: 6151793167132638408L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000011"
+				structure: "eternal_starlight:portal_ruins_forest"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B03104000000010"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "eternal_starlight:lunar_crystal"
+			}
+			id: "0B03104000000012"
+			rewards: [{
+				id: "0B03304000000012"
+				type: "xp"
+				xp: 20
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				dimension: "eternal_starlight:starlight"
+				id: "0B03204000000012"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03104000000012"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000020"
+			rewards: [{
+				id: "0B03304000000020"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000020"
+				item: { count: 1, id: "eternal_starlight:lunar_berries" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B03104000000012"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000030"
+			rewards: [{
+				id: "0B03304000000030"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000030"
+				item: { count: 1, id: "eternal_starlight:lunaris_cactus_fruit" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03104000000030"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000031"
+			rewards: [{
+				id: "0B03304000000031"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000031"
+				item: { count: 1, id: "eternal_starlight:saltpeter_powder" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B03104000000031"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000032"
+			rewards: [{
+				id: "0B03304000000032"
+				type: "xp"
+				xp: 20
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000032"
+				item: { count: 1, id: "eternal_starlight:deepsilver_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B03104000000041"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000033"
+			optional: true
+			rewards: [
+				{
+					id: "0B03304000000033"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "5DF0025F66E867CB"
+					table_id: 6151793167132638408L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000033"
+				item: { count: 1, id: "eternal_starlight:starcore" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B03104000000034"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000040"
+			optional: true
+			rewards: [{
+				id: "0B03304000000040"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000040"
+				item: { count: 1, id: "eternal_starlight:glacite_shard" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B03104000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000034"
+			rewards: [{
+				id: "0B03304000000034"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000034"
+				item: { count: 1, id: "eternal_starlight:lunar_crystal" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B03104000000034"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000035"
+			rewards: [{
+				id: "0B03304000000035"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000035"
+				item: { count: 1, id: "eternal_starlight:red_starlight_crystal_shard" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B03104000000034"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000036"
+			rewards: [{
+				id: "0B03304000000036"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000036"
+				item: { count: 1, id: "eternal_starlight:lunaris_cactus_gel" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0B03104000000035"
+				"0B03104000000036"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000037"
+			rewards: [{
+				id: "0B03304000000037"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000037"
+				item: { count: 1, id: "eternal_starlight:amaramber_ingot" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B03104000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000041"
+			rewards: [{
+				id: "0B03304000000041"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000041"
+				item: { count: 1, id: "eternal_starlight:thermal_springstone_ingot" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B03104000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000043"
+			optional: true
+			rewards: [
+				{
+					id: "0B03304000000043"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7829FF4D2463F927"
+					table_id: 6151793167132638408L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000043"
+				item: { count: 1, id: "eternal_starlight:wand_of_teleportation" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B03104000000030"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000044"
+			optional: true
+			rewards: [{
+				id: "0B03304000000044"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000044"
+				item: { count: 1, id: "eternal_starlight:abyssal_fruit" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B03104000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000045"
+			optional: true
+			rewards: [{
+				id: "0B03304000000045"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000045"
+				item: { count: 1, id: "eternal_starlight:mana_crystal" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B03104000000035"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000060"
+			optional: true
+			rewards: [
+				{
+					id: "0B03304000000060"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7ACEF7DA38079104"
+					table_id: 6151793167132638408L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000060"
+				item: { count: 1, id: "eternal_starlight:blue_starlight_crystal_shard" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B03104000000041"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000061"
+			optional: true
+			rewards: [{
+				id: "0B03304000000061"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000061"
+				item: { count: 1, id: "eternal_starlight:golem_steel_ingot" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B03104000000061"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000062"
+			optional: true
+			rewards: [
+				{
+					id: "0B03304000000062"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0882E137DFC25EA1"
+					item: {
+						count: 1
+						id: "eternal_starlight:oxidized_golem_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "017F5944BA40061E"
+					table_id: 6151793167132638408L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000062"
+				item: { count: 1, id: "eternal_starlight:oxidized_golem_steel_ingot" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B03104000000040"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000063"
+			optional: true
+			rewards: [{
+				id: "0B03304000000063"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000063"
+				item: { count: 1, id: "eternal_starlight:coldsnap" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B03104000000045"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000064"
+			optional: true
+			rewards: [
+				{
+					id: "0B03304000000064"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "075C51958013BBC8"
+					item: {
+						count: 1
+						id: "eternal_starlight:soul_dew"
+					}
+					type: "item"
+				}
+				{
+					id: "24642BE0988B5C57"
+					table_id: 6151793167132638408L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000064"
+				item: { count: 1, id: "eternal_starlight:soul_dew" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B03104000000044"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000065"
+			optional: true
+			rewards: [{
+				id: "0B03304000000065"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000065"
+				item: { count: 1, id: "eternal_starlight:luminofish" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03104000000065"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000066"
+			optional: true
+			rewards: [{
+				id: "0B03304000000066"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000066"
+				item: { count: 1, id: "eternal_starlight:luminofish_bucket" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0B0310300000008A"
+				"0B03104000000066"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B03104000000067"
+			optional: true
+			rewards: [
+				{
+					id: "0B03304000000067"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "1A487A77C3A19EDC"
+					item: {
+						count: 1
+						id: "eternal_starlight:cooked_luminofish"
+					}
+					type: "item"
+				}
+				{
+					id: "360AD5D6A1E5E150"
+					table_id: 6151793167132638408L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000067"
+				item: { count: 1, id: "eternal_starlight:cooked_luminofish" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0B03104000000044"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000068"
+			optional: true
+			rewards: [{
+				id: "0B03304000000068"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000068"
+				item: { count: 1, id: "eternal_starlight:rookfish" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B03104000000068"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000069"
+			optional: true
+			rewards: [{
+				id: "0B03304000000069"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000069"
+				item: { count: 1, id: "eternal_starlight:rookfish_bucket" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B03104000000069"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310400000006A"
+			optional: true
+			rewards: [
+				{
+					id: "0B0330400000006A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "204F035725B58282"
+					item: {
+						count: 1
+						id: "eternal_starlight:cooked_rookfish"
+					}
+					type: "item"
+				}
+				{
+					id: "0EA0A8D6269EFC87"
+					table_id: 6151793167132638408L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320400000006A"
+				item: { count: 1, id: "eternal_starlight:cooked_rookfish" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0B03104000000068"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310400000006B"
+			optional: true
+			rewards: [
+				{
+					id: "0B0330400000006B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "6906068BCC505117"
+					item: {
+						count: 1
+						id: "eternal_starlight:rookfish_air_sac"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320400000006B"
+				item: { count: 1, id: "eternal_starlight:rookfish_air_sac" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B03104000000041"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310400000006C"
+			optional: true
+			rewards: [{
+				id: "0B0330400000006C"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320400000006C"
+				item: { count: 1, id: "eternal_starlight:creteor_hide" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B03104000000063"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310400000006D"
+			optional: true
+			rewards: [
+				{
+					id: "0B0330400000006D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "5695BF84170AEBB1"
+					item: {
+						count: 1
+						id: "eternal_starlight:shivering_gel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320400000006D"
+				item: { count: 1, id: "eternal_starlight:shivering_gel" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B03104000000041"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310400000006E"
+			optional: true
+			rewards: [{
+				id: "0B0330400000006E"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320400000006E"
+				item: { count: 1, id: "eternal_starlight:thioquartz_shard" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0B03104000000045"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310400000006F"
+			optional: true
+			rewards: [
+				{
+					id: "0B0330400000006F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "5D5FBF5DFCFA0EE0"
+					item: {
+						count: 1
+						id: "eternal_starlight:mana_crystal_shard"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320400000006F"
+				item: { count: 1, id: "eternal_starlight:mana_crystal_shard" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03104000000037"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000070"
+			optional: true
+			rewards: [{
+				id: "0B03304000000070"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000070"
+				item: { count: 1, id: "eternal_starlight:starlit_diamond" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0B03104000000037"
+				"0B03104000000041"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000071"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "0B03304000000071"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204000000071"
+				item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03104000000071"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B03104000000050"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "0B03304000000053"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tags: ["aoa_boss"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: "minecraft:"
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "eternal_starlight:the_gatekeeper"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "78324A0BAE417926"
+				type: "kill"
+				value: 1L
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03104000000050"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000072"
+			optional: true
+			rewards: [{
+				id: "0B03304000000072"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_boss"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "eternal_starlight:permafrost"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0B03204000000072"
+				type: "kill"
+				value: 1L
+			}]
+			x: 27.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B03104000000050"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03104000000073"
+			rewards: [{
+				id: "0B03304000000073"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_boss"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "eternal_starlight:starlight_golem"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0B03204000000073"
+				type: "kill"
+				value: 1L
+			}]
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B03104000000073"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "eternal_starlight:orb_of_prophecy"
+			}
+			id: "0B03104000000100"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0B03304000000050"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "ren_starlight_observation_complete"
+					type: "astages:player"
+				}
+				{
+					id: "0B03204100000102"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03204100000101"
+				item: { count: 1, id: "eternal_starlight:orb_of_prophecy" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: -1.5d
+		}
+	]
+}

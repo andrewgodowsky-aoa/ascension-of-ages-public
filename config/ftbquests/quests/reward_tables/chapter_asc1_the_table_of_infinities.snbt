@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:nautilus_shell"
+	}
+	id: "601777EA2BD3AD7E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "601777EA2BD3AD01"
+			item: {
+				count: 1
+				id: "minecraft:nautilus_shell"
+			}
+		}
+		{
+			count: 8
+			id: "601777EA2BD3AD02"
+			item: {
+				count: 1
+				id: "minecraft:firework_star"
+			}
+		}
+		{
+			count: 8
+			id: "601777EA2BD3AD03"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+		}
+		{
+			count: 8
+			id: "601777EA2BD3AD04"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 8
+			id: "601777EA2BD3AD05"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+		}
+		{
+			count: 8
+			id: "601777EA2BD3AD06"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+		}
+	]
+	use_title: true
+}

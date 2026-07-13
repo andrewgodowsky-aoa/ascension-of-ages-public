@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:bone_meal"
+	}
+	id: "555F8F4ABA9DBCC8"
+	loot_size: 1
+	order_index: 49
+	rewards: [
+		{
+			count: 4
+			id: "692E60C55294E8F1"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+		}
+		{
+			count: 4
+			id: "4154BFE9E29AFB86"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 4
+			id: "22D4382B77E9AB9E"
+			item: {
+				count: 1
+				id: "minecraft:flint_and_steel"
+			}
+		}
+		{
+			count: 4
+			id: "3AF00781F87DCBD1"
+			item: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+		}
+		{
+			count: 4
+			id: "6AA9022B38266F86"
+			item: {
+				count: 1
+				id: "minecraft:beetroot_soup"
+			}
+		}
+	]
+	use_title: true
+}

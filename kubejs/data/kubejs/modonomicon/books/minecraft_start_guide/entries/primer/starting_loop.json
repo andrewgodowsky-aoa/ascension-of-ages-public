@@ -1,0 +1,35 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "primer",
+  "description": "book.kubejs.minecraft_start_guide.primer.starting_loop.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "minecraft:campfire"
+  },
+  "name": "book.kubejs.minecraft_start_guide.primer.starting_loop.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.kubejs.minecraft_start_guide.primer.starting_loop.page1.text",
+      "title": "book.kubejs.minecraft_start_guide.primer.starting_loop.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.kubejs.minecraft_start_guide.primer.starting_loop.page2.text",
+      "title": "book.kubejs.minecraft_start_guide.primer.starting_loop.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 2,
+  "y": 2
+}

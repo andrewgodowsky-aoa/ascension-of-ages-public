@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:iron_bars"
+	}
+	id: "7FB96C05EF5242CC"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			count: 4
+			id: "614CDE63DC8FFF0E"
+			item: {
+				count: 1
+				id: "minecraft:iron_bars"
+			}
+		}
+		{
+			count: 4
+			id: "325AA9C9C8425294"
+			item: {
+				count: 1
+				id: "minecraft:chain"
+			}
+		}
+		{
+			count: 4
+			id: "734E22530072BFC9"
+			item: {
+				count: 1
+				id: "minecraft:iron_door"
+			}
+		}
+		{
+			count: 4
+			id: "6CF3C51C5EC3D51B"
+			item: {
+				count: 1
+				id: "minecraft:iron_trapdoor"
+			}
+		}
+		{
+			count: 4
+			id: "596BD8E2A4FEC755"
+			item: {
+				count: 1
+				id: "minecraft:heavy_weighted_pressure_plate"
+			}
+		}
+	]
+	use_title: true
+}

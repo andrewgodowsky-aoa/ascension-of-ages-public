@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "minecraft:blue_dye"
+	}
+	id: "30FE6AAB4CB3D042"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ id: "13A161E54444E3CC", item: { count: 1, id: "minecraft:blue_dye" } }
+		{ id: "7B3B0836818D4595", item: { count: 1, id: "minecraft:blue_candle" } }
+		{
+			count: 4
+			id: "73B547060B4C73D7"
+			item: {
+				count: 1
+				id: "minecraft:blue_wool"
+			}
+		}
+		{
+			count: 4
+			id: "766014BD0F328120"
+			item: {
+				count: 1
+				id: "minecraft:blue_concrete_powder"
+			}
+		}
+		{
+			count: 4
+			id: "327E866F9167DFF0"
+			item: {
+				count: 1
+				id: "minecraft:blue_glazed_terracotta"
+			}
+		}
+	]
+	use_title: true
+}

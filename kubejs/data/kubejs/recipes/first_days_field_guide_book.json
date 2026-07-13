@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:cobblestone" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "modonomicon:modonomicon",
+    "components": {
+      "modonomicon:book_id": "kubejs:minecraft_start_guide"
+    }
+  }
+}

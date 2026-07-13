@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:redstone_torch"
+	}
+	id: "5D476CACEF23A3B8"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			count: 4
+			id: "540E89651206088E"
+			item: {
+				count: 1
+				id: "minecraft:redstone_torch"
+			}
+		}
+		{
+			count: 4
+			id: "55331470BE3E372E"
+			item: {
+				count: 1
+				id: "minecraft:repeater"
+			}
+		}
+		{
+			count: 4
+			id: "5D22ED274F046407"
+			item: {
+				count: 1
+				id: "minecraft:comparator"
+			}
+		}
+		{
+			count: 4
+			id: "0CF3415810E55296"
+			item: {
+				count: 1
+				id: "minecraft:redstone_lamp"
+			}
+		}
+		{
+			count: 4
+			id: "09DCA98FFA8F6405"
+			item: {
+				count: 1
+				id: "minecraft:target"
+			}
+		}
+	]
+	use_title: true
+}

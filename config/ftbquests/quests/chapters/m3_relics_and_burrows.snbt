@@ -1,0 +1,2650 @@
+{
+	autofocus_id: "49BBE54BCF735A82"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "m3_relics_and_burrows"
+	group: "508B59840C508057"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "alchemists_garden:leather_glove"
+	}
+	id: "4B2D3C5E8F7A0501"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["097AED7C91033D5E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:flower_pot"
+			}
+			id: "49BBE54BCF735A82"
+			rewards: [{
+				id: "3030BC36BB8FE638"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 2.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "6A394994489959FD"
+				item: { count: 1, id: "alchemists_garden:mixed_soil_pot" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49BBE54BCF735A82"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "4B2D3C5E8F7A7C00"
+			optional: true
+			rewards: [
+				{
+					id: "4B2D3C5E8F7A7C02"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "75781CA5B3B83F87"
+					table_id: 6318128595107726277L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4B2D3C5E8F7A7C01"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -1.8d
+		}
+		{
+			dependencies: ["49BBE54BCF735A82"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "7D36D95D74E1588E"
+			rewards: [
+				{
+					id: "5190DBA080337994"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F48790A94EC9D75"
+					table_id: 6318128595107726277L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "07406033BA95B1D9"
+				item: { count: 1, id: "alchemists_garden:leather_glove" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49BBE54BCF735A82"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "5607E15F448C5DC8"
+			rewards: [{
+				id: "68BE232409915F7F"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "square"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "14A52F08CF700106"
+				item: { count: 1, id: "alchemists_garden:mortar_and_pestle" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5607E15F448C5DC8"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "46BC26894174159C"
+			rewards: [{
+				id: "4B7DF2FF61C650A9"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "square"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4C9E6E281A9950F3"
+					item: { count: 1, id: "alchemists_garden:mixed_soil" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "167F523E5AC1BEF7"
+					item: { count: 1, id: "alchemists_garden:mixed_soil_pot" }
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49BBE54BCF735A82"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "451E7BC527C955B7"
+			rewards: [{
+				id: "5A59F01D6CA813CA"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "158D9FEE14EB5C26"
+					item: { count: 1, id: "alchemists_garden:blood_rose" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "349A7272B62C5A2F"
+					item: { count: 1, id: "alchemists_garden:bubblis" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "3D5228E4A1AD5877"
+					item: { count: 1, id: "alchemists_garden:cloudelion" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "1AEA6F346E4352CA"
+					item: { count: 1, id: "alchemists_garden:glow_fungus" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5E2D16B27F42935D"
+					item: { count: 1, id: "alchemists_garden:toxic_cap" }
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["72A736B300C6F055"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "3B1DBEF6FB655D29"
+			rewards: [{
+				id: "16FA404D2E24A771"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "1074FC39BF90F321"
+					item: { count: 1, id: "alchemists_garden:brambleroot" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "0B30BC15BCA65B53"
+					item: { count: 1, id: "alchemists_garden:creeper_orchid" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4A99B0A760E25EB8"
+					item: { count: 1, id: "alchemists_garden:exaustum_flower" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "60D165349B6F501B"
+					item: { count: 1, id: "alchemists_garden:hungry_grass" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "74ECD201703BC963"
+					item: { count: 1, id: "alchemists_garden:sthirn_bush" }
+					type: "item"
+				}
+			]
+			x: -13.65d
+			y: 3.2500000000000004d
+		}
+		{
+			dependencies: ["451E7BC527C955B7"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "57E439CDF7D76BB1"
+			rewards: [
+				{
+					id: "61E9CF204542140D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "005422CDD264B56D"
+					table_id: 6318128595107726277L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "170ADB0042047F1F"
+				item: { count: 1, id: "alchemists_garden:blood_bottle" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B1DBEF6FB655D29"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "252ADD929CB55CBF"
+			rewards: [
+				{
+					id: "0BCB86148259567F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7AB9BA0116BE2DE5"
+					table_id: 6318128595107726277L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "1C85C340C0055E75"
+				item: { count: 1, id: "alchemists_garden:energy_ball" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B1DBEF6FB655D29"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "5786EDCFEBE0F04B"
+			rewards: [
+				{
+					id: "3297ABE4B1830BAF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "22FF1DBE12A40BB9"
+					table_id: 6318128595107726277L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "32291DCD9AC39869"
+				item: { count: 1, id: "alchemists_garden:bezoar_stone" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B1DBEF6FB655D29"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0A05779A920E548B"
+			rewards: [{
+				id: "3A2FA7BA84AC4A61"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "301545A73BD33B4D"
+				item: { count: 1, id: "alchemists_garden:high_quality_mulch" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49BBE54BCF735A82"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "4FB724CDDCB6E709"
+			rewards: [{
+				id: "6539014B8AB555A1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "1920B0E6775F1ACC"
+				item: { count: 1, id: "alchemists_garden:molten_amethyst" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FB724CDDCB6E709"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0C1D90EE8814578B"
+			rewards: [{
+				id: "26C085D9813FAC53"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "7E6F822132865AED"
+				item: { count: 1, id: "alchemists_garden:chrysite_string" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["451E7BC527C955B7"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "7218362698C1805A"
+			rewards: [{
+				id: "588EBE592AF6EB1F"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					count: 4L
+					id: "011741A950BD52C7"
+					item: { count: 1, id: "alchemists_garden:spores" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5C9CEA24A4FC389C"
+					item: { count: 1, id: "alchemists_garden:glittering_spores" }
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7218362698C1805A"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "084EF9CB7FD7C395"
+			rewards: [{
+				id: "697EB288C85FC6FF"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "400013F772FF5151"
+					item: { count: 1, id: "alchemists_garden:raw_mushrooms_on_a_stick" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "2B024AB3A1CA52DE"
+					item: { count: 1, id: "alchemists_garden:cooked_mushrooms_on_a_stick" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "3BDA3BFE2214ECD8"
+					item: { count: 1, id: "alchemists_garden:golden_mushrooms_on_a_stick" }
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7218362698C1805A"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "5570BA2E7BCC50C2"
+			rewards: [{
+				id: "6BD8FC1D88EF54FF"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5796F4EA4C1AC1FA"
+				item: { count: 1, id: "alchemists_garden:mushroomite_ingot" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 6.6d
+		}
+		{
+			dependencies: ["5570BA2E7BCC50C2"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "6689B369ECBF5D7C"
+			rewards: [{
+				id: "29BCA9E549FFA0BA"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "30EDBF2C72897FE3"
+					item: { count: 1, id: "alchemists_garden:mushroomite_sword" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "78193236A32D57C1"
+					item: { count: 1, id: "alchemists_garden:mushroomite_pickaxe" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "76BAE092534F5BCF"
+					item: { count: 1, id: "alchemists_garden:mushroomite_axe" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "687C27B5D6455887"
+					item: { count: 1, id: "alchemists_garden:mushroomite_shovel" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "060D1BE94EB55522"
+					item: { count: 1, id: "alchemists_garden:mushroomite_hoe" }
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 8.4d
+		}
+		{
+			dependencies: ["3B1DBEF6FB655D29"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "1E26C1DB07329371"
+			rewards: [{
+				id: "4F74732EEC245F55"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "2078221517E95DC7"
+				item: { count: 1, id: "alchemists_garden:brambler" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["46BC26894174159C"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "7B598669D634519A"
+			rewards: [{
+				id: "7BA39E8F5D7F5D10"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "square"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "6055D6B1DF4C5682"
+				item: { count: 1, id: "alchemists_garden:empty_gnome_burrow" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B598669D634519A"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "6D061DBB350F5529"
+			rewards: [{
+				id: "53514BAB2D562974"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "alchemists_garden:gnome"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "7A25EF63FE8D9081"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D061DBB350F5529"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "4066BDA88DF29832"
+			rewards: [{
+				id: "44467943A70CF65A"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5FE5C3F8839A97DE"
+				item: { count: 1, id: "alchemists_garden:gnome_shovel" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D061DBB350F5529"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "53967D6D1E7151E0"
+			rewards: [{
+				id: "1E4C802380B9D75A"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "469901C8997CFB6E"
+					item: { count: 1, id: "alchemists_garden:gnome_hat_helmet" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "0C05D2068DB25D7F"
+					item: { count: 1, id: "alchemists_garden:gnome_boots_boots" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D061DBB350F5529"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "7733FF946E05AB9C"
+			rewards: [{
+				id: "4523C2D0F82D896B"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "circle"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "69EFB132CAC25D4B"
+				item: { count: 1, id: "alchemists_garden:gnomes_brew" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5570BA2E7BCC50C2"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "29055EFFDCC6576E"
+			rewards: [{
+				id: "45D2C7F0660F71F4"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "alchemists_garden:yeti"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "1EFA694CE92B2B72"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.600000000000001d
+			y: 7.800000000000001d
+		}
+		{
+			dependencies: ["5607E15F448C5DC8"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "72A736B300C6F055"
+			rewards: [{
+				id: "0B68E432D2A80715"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "square"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "529C4BDDF701F521"
+				item: { count: 1, id: "alchemists_garden:golden_ring" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"451E7BC527C955B7"
+				"76902E25E4B4C8E7"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "3B177A2622E16785"
+			rewards: [{
+				id: "77537645458E5511"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "28F914B5065A5CF8"
+					item: { count: 1, id: "alchemists_garden:glow_fungus_ring" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "00556AFA710D56F5"
+					item: { count: 1, id: "alchemists_garden:regeneration_ring" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "14870B9CCDA75DB9"
+					item: { count: 1, id: "alchemists_garden:speed_ring" }
+					type: "item"
+				}
+			]
+			x: -21.450000000000003d
+			y: 5.8500000000000005d
+		}
+		{
+			dependencies: ["29055EFFDCC6576E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "1E2CC1305BAFB7E2"
+			rewards: [{
+				id: "13DE8CA1AD4E52D4"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "2980A487BF885A21"
+					item: { count: 1, id: "alchemists_garden:broken_baby_yeti_staff" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "1ACA89FB64FA5EF9"
+					item: { count: 1, id: "alchemists_garden:broken_spiderling_staff" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["29055EFFDCC6576E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "305697393DA2FAE8"
+			rewards: [{
+				id: "670D7BDCB79551A9"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "0FB18AD9604E5469"
+					item: { count: 1, id: "alchemists_garden:brown_shroom_staff" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4305621680D65251"
+					item: { count: 1, id: "alchemists_garden:spiderling_staff" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "7E8FDF5F6C518F28"
+					item: { count: 1, id: "alchemists_garden:red_shroom_staff" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "44756FA07B08504C"
+					item: { count: 1, id: "alchemists_garden:frozen_shroom_staff" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "17A4DC4DAEEE5EC2"
+					item: { count: 1, id: "alchemists_garden:ent_staff" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "433A10B33B745D30"
+					item: { count: 1, id: "alchemists_garden:gnome_staff" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "27B25A23873AA863"
+					item: { count: 1, id: "alchemists_garden:baby_yeti_staff" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47C9E391CED25C83"
+					item: { count: 1, id: "alchemists_garden:yeti_staff" }
+					type: "item"
+				}
+			]
+			x: -15.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5607E15F448C5DC8"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "2BA66AAE2E7B0103"
+			rewards: [{
+				id: "409208C35B6759F5"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "290586647C185208"
+				item: { count: 1, id: "alchemists_garden:brick_fireplace" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29055EFFDCC6576E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "771A0BD657D158BA"
+			rewards: [{
+				id: "4DFCA2A90B9952C6"
+				type: "xp"
+				xp: 1500
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "03B7D181734C5ED0"
+					item: { count: 1, id: "alchemists_garden:golden_mushrooms_on_a_stick" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "031137B7A21A3D08"
+					item: { count: 1, id: "alchemists_garden:gnomes_brew" }
+					type: "item"
+				}
+			]
+			x: -12.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["49BBE54BCF735A82"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "farmersdelight:stove"
+			}
+			id: "4B2D3C5E8F7A7B10"
+			optional: true
+			rewards: [{
+				id: "4B2D3C5E8F7A7B11"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "square"
+			size: 1.2d
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0000"
+					item: { count: 1, id: "aquaculture:iron_fishing_rod" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0001"
+					item: { count: 1, id: "aquaculture:tackle_box" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0002"
+					item: { count: 1, id: "aquaculture:worm_farm" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0003"
+					item: { count: 1, id: "botanypots:terracotta_botany_pot" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0004"
+					item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0005"
+					item: { count: 1, id: "cookingforblockheads:counter" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0006"
+					item: { count: 1, id: "cookingforblockheads:recipe_book" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0007"
+					item: { count: 1, id: "cookingforblockheads:sink" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0008"
+					item: { count: 1, id: "cookingforblockheads:white_fridge" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0009"
+					item: { count: 1, id: "cookingforblockheads:white_oven" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B000A"
+					item: { count: 1, id: "create_integrated_farming:fishing_net" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B000B"
+					item: { count: 1, id: "create_integrated_farming:roost" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B000C"
+					item: { count: 1, id: "farmersdelight:cabbage_rolls" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B000D"
+					item: { count: 1, id: "farmersdelight:canvas" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B000E"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B000F"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0010"
+					item: { count: 1, id: "farmersdelight:dumplings" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0011"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0012"
+					item: { count: 1, id: "farmersdelight:golden_knife" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0013"
+					item: { count: 1, id: "farmersdelight:iron_knife" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0014"
+					item: { count: 1, id: "farmersdelight:noodle_soup" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0015"
+					item: { count: 1, id: "farmersdelight:pumpkin_soup" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0016"
+					item: { count: 1, id: "farmersdelight:ratatouille" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0017"
+					item: { count: 1, id: "farmersdelight:rich_soil" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0018"
+					item: { count: 1, id: "farmersdelight:rope" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0019"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B001A"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B001B"
+					item: { count: 1, id: "farmersdelight:straw" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B001C"
+					item: { count: 1, id: "farmersdelight:tomato_sauce" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B001D"
+					item: { count: 1, id: "farmersdelight:tomato_seeds" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B001E"
+					item: { count: 1, id: "farmersdelight:tree_bark" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B001F"
+					item: { count: 1, id: "farmersdelight:wild_cabbages" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0020"
+					item: { count: 1, id: "farmersdelight:wild_onions" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0021"
+					item: { count: 1, id: "farmersdelight:wild_rice" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0022"
+					item: { count: 1, id: "farmersdelight:wild_tomatoes" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0023"
+					item: { count: 1, id: "farmingforblockheads:chicken_nest" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0024"
+					item: { count: 1, id: "farmingforblockheads:feeding_trough" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7B0025"
+					item: { count: 1, id: "farmingforblockheads:market" }
+					type: "item"
+				}
+			]
+			x: -22.2d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["4B2D3C5E8F7A7B10"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "7A55C1000000000F"
+			optional: true
+			rewards: [
+				{
+					id: "7A55D100000000F0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6E9411ED1A516332"
+					item: {
+						count: 1
+						id: "hybrid-aquatic:diving_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5D32ED383AC2601C"
+					table_id: 6318128595107726277L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "7A55B100000000F1"
+					item: { count: 1, id: "hybrid-aquatic:diving_helmet" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "7A55B100000000F2"
+					item: { count: 1, id: "hybrid-aquatic:diving_suit" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "7A55B100000000F3"
+					item: { count: 1, id: "hybrid-aquatic:diving_leggings" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "7A55B100000000F4"
+					item: { count: 1, id: "hybrid-aquatic:diving_boots" }
+					type: "item"
+				}
+			]
+			x: -23.5d
+			y: 1.8d
+		}
+		{
+			dependencies: ["4B2D3C5E8F7A7B10"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "sliceanddice:slicer"
+			}
+			id: "4B2D3C5E8F7C0001"
+			optional: true
+			rewards: [{
+				id: "4B2D3C5E8F7C0101"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4B2D3C5E8F7C0201"
+				item: { count: 1, id: "sliceanddice:slicer" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: 0.3d
+		}
+		{
+			dependencies: ["4B2D3C5E8F7C0001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "sliceanddice:sprinkler"
+			}
+			id: "4B2D3C5E8F7C0002"
+			optional: true
+			rewards: [
+				{
+					id: "4B2D3C5E8F7C0102"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "02436340F6023B13"
+					item: {
+						count: 1
+						id: "sliceanddice:fertilizer_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "481C6B9DE44034AA"
+					table_id: 6318128595107726277L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7C0202"
+					item: { count: 1, id: "sliceanddice:fertilizer_bucket" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4B2D3C5E8F7C0203"
+					item: { count: 1, id: "sliceanddice:sprinkler" }
+					type: "item"
+				}
+			]
+			x: -26.0d
+			y: 0.3d
+		}
+	]
+}

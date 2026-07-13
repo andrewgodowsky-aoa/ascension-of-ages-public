@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:deepslate"
+	}
+	id: "57AE807B7CA243C5"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{
+			count: 4
+			id: "5983494FBB54BE9B"
+			item: {
+				count: 1
+				id: "minecraft:deepslate"
+			}
+		}
+		{
+			count: 4
+			id: "421029CD32578A5E"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 4
+			id: "567398F072E06A70"
+			item: {
+				count: 1
+				id: "minecraft:spruce_log"
+			}
+		}
+		{
+			count: 4
+			id: "2B3856CDEC1B940B"
+			item: {
+				count: 1
+				id: "minecraft:birch_log"
+			}
+		}
+		{
+			count: 4
+			id: "0132B010354335AF"
+			item: {
+				count: 1
+				id: "minecraft:jungle_log"
+			}
+		}
+	]
+	use_title: true
+}

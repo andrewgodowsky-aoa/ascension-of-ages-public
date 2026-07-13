@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:firework_star"
+	}
+	id: "6D212AF32A3757C2"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{
+			count: 8
+			id: "6D212AF32A375701"
+			item: {
+				count: 1
+				id: "minecraft:firework_star"
+			}
+		}
+		{
+			count: 4
+			id: "6D212AF32A375702"
+			item: {
+				count: 1
+				id: "minecraft:globe_banner_pattern"
+			}
+		}
+		{
+			count: 8
+			id: "6D212AF32A375703"
+			item: {
+				count: 1
+				id: "minecraft:glow_ink_sac"
+			}
+		}
+		{
+			count: 8
+			id: "6D212AF32A375704"
+			item: {
+				count: 1
+				id: "minecraft:purple_dye"
+			}
+		}
+		{
+			count: 8
+			id: "6D212AF32A375705"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+		}
+		{
+			count: 8
+			id: "6D212AF32A375706"
+			item: {
+				count: 1
+				id: "minecraft:popped_chorus_fruit"
+			}
+		}
+	]
+	use_title: true
+}

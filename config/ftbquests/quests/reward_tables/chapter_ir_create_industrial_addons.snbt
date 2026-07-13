@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "minecraft:orange_dye"
+	}
+	id: "25CBCFD7D0A093A4"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ id: "0CDD3E819B892C26", item: { count: 1, id: "minecraft:orange_dye" } }
+		{ id: "5C5F1CA4104D2E85", item: { count: 1, id: "minecraft:orange_candle" } }
+		{
+			count: 4
+			id: "696E729DA65CA72A"
+			item: {
+				count: 1
+				id: "minecraft:orange_wool"
+			}
+		}
+		{
+			count: 4
+			id: "314E7AB7CD9C59D2"
+			item: {
+				count: 1
+				id: "minecraft:orange_concrete_powder"
+			}
+		}
+		{
+			count: 4
+			id: "0B90FCE5F39459B7"
+			item: {
+				count: 1
+				id: "minecraft:orange_glazed_terracotta"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:bricks"
+	}
+	id: "76213F91768241FA"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			count: 4
+			id: "7E2474995F6E4930"
+			item: {
+				count: 1
+				id: "minecraft:bricks"
+			}
+		}
+		{
+			count: 4
+			id: "3A49F5BB8BD73CA3"
+			item: {
+				count: 1
+				id: "minecraft:brick_wall"
+			}
+		}
+		{
+			count: 4
+			id: "71FC25C21F057DCA"
+			item: {
+				count: 1
+				id: "minecraft:mud_bricks"
+			}
+		}
+		{
+			count: 4
+			id: "127951188BF7574F"
+			item: {
+				count: 1
+				id: "minecraft:mud_brick_wall"
+			}
+		}
+		{
+			count: 4
+			id: "16CE19B570DFF084"
+			item: {
+				count: 1
+				id: "minecraft:packed_mud"
+			}
+		}
+	]
+	use_title: true
+}

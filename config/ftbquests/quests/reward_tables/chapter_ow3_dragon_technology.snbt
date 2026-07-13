@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:ender_pearl"
+	}
+	id: "69A1E469EC520E32"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{
+			count: 8
+			id: "69A1E469EC520E01"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 8
+			id: "69A1E469EC520E02"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+		}
+		{
+			count: 4
+			id: "69A1E469EC520E03"
+			item: {
+				count: 1
+				id: "minecraft:ghast_tear"
+			}
+		}
+		{
+			count: 8
+			id: "69A1E469EC520E04"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+		}
+		{
+			count: 8
+			id: "69A1E469EC520E05"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 8
+			id: "69A1E469EC520E06"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+	]
+	use_title: true
+}

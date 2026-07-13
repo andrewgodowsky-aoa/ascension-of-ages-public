@@ -1,0 +1,92 @@
+{
+	icon: {
+		id: "minecraft:golden_apple"
+	}
+	id: "1B8CA8F88FC6A7D0"
+	loot_size: 1
+	order_index: 54
+	rewards: [
+		{
+			count: 2
+			id: "230B91C04102EAFF"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+		}
+		{
+			count: 16
+			id: "30C0DB1F81D8E71E"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 32
+			id: "242DB0304FF8E0A3"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 32
+			id: "757C5F0A906AB160"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+		}
+		{
+			count: 32
+			id: "41A62EE0C6F95550"
+			item: {
+				count: 1
+				id: "minecraft:scaffolding"
+			}
+		}
+		{
+			count: 16
+			id: "19F58C1D7F69128B"
+			item: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+		}
+		{
+			count: 8
+			id: "211817A08D3F62BA"
+			item: {
+				count: 1
+				id: "minecraft:hay_block"
+			}
+		}
+		{
+			count: 4
+			id: "2114E947211A4241"
+			item: {
+				count: 1
+				id: "create:builders_tea"
+			}
+		}
+		{
+			count: 2
+			id: "72DF1BE4A25E70EE"
+			item: {
+				count: 1
+				id: "create:sand_paper"
+			}
+		}
+		{
+			count: 4
+			id: "141A00FEE99CB5A6"
+			item: {
+				count: 1
+				id: "farmersdelight:fried_rice"
+			}
+		}
+		{ id: "72859A8C5E666C8F", item: { count: 1, id: "handcrafted:pillager_trophy" } }
+	]
+	use_title: true
+}

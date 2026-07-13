@@ -1,0 +1,11 @@
+{
+  "_comment": "AoA modded-biome spawn fix: plains fauna on #c:is_plains (RU/BWG/Terralith all populate it). LivingThings raccoon/snail + Alchemist's Garden gnome + Born in Chaos seared_spirit.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_plains",
+  "spawners": [
+    { "type": "livingthings:raccoon", "weight": 16, "minCount": 2, "maxCount": 5 },
+    { "type": "livingthings:snail", "weight": 12, "minCount": 3, "maxCount": 5 },
+    { "type": "alchemists_garden:gnome", "weight": 20, "minCount": 1, "maxCount": 4 },
+    { "type": "born_in_chaos_v1:seared_spirit", "weight": 5, "minCount": 1, "maxCount": 1 }
+  ]
+}

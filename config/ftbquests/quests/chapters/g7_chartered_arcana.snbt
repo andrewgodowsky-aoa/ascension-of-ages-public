@@ -1,0 +1,778 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "g7_chartered_arcana"
+	group: "5E42E6B4A7C91D30"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "occultism:book_of_binding_afrit"
+	}
+	id: "4341010000000000"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4954631000000000"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "occultism:book_of_binding_afrit"
+			}
+			id: "4341011000000001"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020010001"
+				item: { count: 1, id: "occultism:book_of_binding_afrit" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03101000000058"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "theurgy:reformation_result_pedestal"
+			}
+			id: "4341011000000002"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020020002"
+				item: { count: 1, id: "theurgy:reformation_target_pedestal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4341011000000001"
+				"4341011000000002"
+				"49540B1000000002"
+				"43410110000001A2"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "spectrum:spirit_instiller"
+			}
+			id: "4341011000000004"
+			rewards: [{
+				auto: "invisible"
+				id: "4341011030004000"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "g_magic_authorization_complete"
+				type: "astages:player"
+			}]
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4341011020040001"
+					item: { count: 1, id: "spectrum:spirit_instiller" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4341011020040002"
+					item: { count: 1, id: "spectrum:fusion_shrine_basalt" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4341011000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "theurgy:mercury_catalyst"
+			}
+			id: "4341011000000005"
+			optional: true
+			rewards: [{
+				id: "472E30F9D449D102"
+				table_id: 2952669922270564066L
+				type: "loot"
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020050001"
+				item: { count: 1, id: "theurgy:mercury_catalyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4954631000000000"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "4341011000000100"
+			optional: true
+			rewards: [
+				{
+					id: "4341013000060002"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0B25D03BB2D361BB"
+					item: {
+						count: 1
+						id: "mowziesmobs:sol_visage"
+					}
+					type: "item"
+				}
+				{
+					id: "4D69C60C7477F929"
+					table_id: 2952669922270564066L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_boss"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "mowziesmobs:umvuthi"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "4341012000060001"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B03101000000034"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "neovitae:blood_orb_magician"
+			}
+			id: "43410110000001A0"
+			rewards: [{
+				id: "43410110301A0000"
+				type: "xp"
+				xp: 200
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "43410110201A0001"
+				item: { count: 1, id: "neovitae:blood_orb_magician" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43410110000001A0"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "neovitae:blood_orb_master"
+			}
+			id: "43410110000001A1"
+			rewards: [{
+				id: "43410110301A1000"
+				type: "xp"
+				xp: 300
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "43410110201A1001"
+				item: { count: 1, id: "neovitae:blood_orb_master" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43410110000001A1"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "neovitae:blood_orb_archmage"
+			}
+			id: "43410110000001A2"
+			rewards: [{
+				id: "43410110301A2000"
+				type: "xp"
+				xp: 400
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "43410110201A2001"
+				item: { count: 1, id: "neovitae:blood_orb_archmage" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["43410110000001A1"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "neovitae:rune_2_capacity_augmented"
+			}
+			id: "43410110000001A3"
+			optional: true
+			rewards: [
+				{
+					id: "43410110301A3000"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6B43E23ABB40119B"
+					table_id: 2952669922270564066L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "43410110201A3001"
+				item: { count: 1, id: "neovitae:rune_2_capacity_augmented" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49540B1000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:the_vessel"
+			}
+			id: "4341011000000201"
+			optional: true
+			rewards: [{
+				id: "4341011030200001"
+				type: "xp"
+				xp: 150
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020200001"
+				item: { count: 1, id: "malum:the_vessel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4341011000000201"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:void_salts"
+			}
+			id: "4341011000000202"
+			optional: true
+			rewards: [{
+				id: "4341011030200002"
+				type: "xp"
+				xp: 200
+			}]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4341011020200002"
+					item: { count: 1, id: "malum:void_salts" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4341011020200021"
+					item: { count: 1, id: "malum:null_slate" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4341011020200022"
+					item: { count: 1, id: "malum:malignant_lead" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4341011000000201"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:umbral_spirit"
+			}
+			id: "4341011000000203"
+			optional: true
+			rewards: [{
+				id: "4341011030200003"
+				type: "xp"
+				xp: 200
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020200003"
+				item: { count: 1, id: "malum:umbral_spirit" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49540B1000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:soul_stained_steel_ingot"
+			}
+			id: "4341011000000204"
+			optional: true
+			rewards: [{
+				id: "4341011030200004"
+				type: "xp"
+				xp: 200
+			}]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4341011020200004"
+					item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4341011020200041"
+					item: { components: { "ftbfiltersystem:filter": "root(or(item(malum:soul_stained_steel_helmet),item(malum:soul_stained_steel_chestplate),item(malum:soul_stained_steel_leggings),item(malum:soul_stained_steel_boots)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4341011000000202"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:malignant_pewter_ingot"
+			}
+			id: "4341011000000205"
+			optional: true
+			rewards: [{
+				id: "4341011030200005"
+				type: "xp"
+				xp: 250
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020200005"
+				item: { count: 1, id: "malum:malignant_pewter_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4341011000000204"
+				"4341011000000205"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:malignant_stronghold_chestplate"
+			}
+			id: "4341011000000206"
+			optional: true
+			rewards: [
+				{
+					id: "4341011030200006"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "441ACF73202EA783"
+					item: {
+						count: 1
+						id: "malum:malignant_stronghold_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "662FB2A6240C95B6"
+					table_id: 2952669922270564066L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020200006"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(malum:malignant_stronghold_helmet),item(malum:malignant_stronghold_chestplate),item(malum:malignant_stronghold_leggings),item(malum:malignant_stronghold_boots)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4341011000000205"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:erosion_scepter"
+			}
+			id: "4341011000000207"
+			optional: true
+			rewards: [
+				{
+					id: "4341011030200007"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "06E439A9662D7CEC"
+					item: {
+						count: 1
+						id: "malum:erosion_scepter"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020200007"
+				item: { count: 1, id: "malum:erosion_scepter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49540B1000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "malum:alchemical_impetus"
+			}
+			id: "4341011000000208"
+			optional: true
+			rewards: [{
+				id: "4341011030200008"
+				type: "xp"
+				xp: 150
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4341011020200008"
+				item: { count: 1, id: "malum:alchemical_impetus" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+	]
+}

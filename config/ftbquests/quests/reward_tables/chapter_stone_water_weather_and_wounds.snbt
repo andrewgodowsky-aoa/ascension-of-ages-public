@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:beetroot"
+	}
+	id: "0E1853F29DAE25D8"
+	loot_size: 1
+	order_index: 52
+	rewards: [
+		{
+			count: 4
+			id: "21E5059854025DD4"
+			item: {
+				count: 1
+				id: "minecraft:beetroot"
+			}
+		}
+		{
+			count: 4
+			id: "0A2630FA289AFA25"
+			item: {
+				count: 1
+				id: "minecraft:melon_slice"
+			}
+		}
+		{
+			count: 4
+			id: "6A5DA23719D88EE0"
+			item: {
+				count: 1
+				id: "minecraft:cookie"
+			}
+		}
+		{
+			count: 4
+			id: "78EAE5333A957D05"
+			item: {
+				count: 1
+				id: "minecraft:baked_potato"
+			}
+		}
+		{
+			count: 4
+			id: "0E5278C956228B37"
+			item: {
+				count: 1
+				id: "minecraft:cooked_chicken"
+			}
+		}
+	]
+	use_title: true
+}

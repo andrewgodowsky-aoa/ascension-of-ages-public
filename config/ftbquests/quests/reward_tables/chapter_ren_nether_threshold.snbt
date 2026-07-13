@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:pumpkin_seeds"
+	}
+	id: "67CCA4BCC26DA3BB"
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{
+			count: 4
+			id: "56572727196C4048"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+		}
+		{
+			count: 4
+			id: "4424E70240F19A8B"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+		}
+		{
+			count: 4
+			id: "31F8828B6938A3A7"
+			item: {
+				count: 1
+				id: "minecraft:seagrass"
+			}
+		}
+		{
+			count: 4
+			id: "403EF56ECC495C43"
+			item: {
+				count: 1
+				id: "minecraft:kelp"
+			}
+		}
+		{
+			count: 4
+			id: "11AE3E18A9F9952C"
+			item: {
+				count: 1
+				id: "minecraft:oak_sapling"
+			}
+		}
+	]
+	use_title: true
+}

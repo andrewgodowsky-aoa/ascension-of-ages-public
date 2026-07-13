@@ -1,0 +1,2062 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "g1_the_golden_workshop"
+	group: "5E42E6B4A7C91D30"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "neovitae:athanor"
+	}
+	id: "4757010000000000"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4954631000000000"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "neovitae:athanor"
+			}
+			id: "4757011020010001"
+			rewards: [{
+				id: "4757011030010000"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				block: { count: 1, id: "neovitae:athanor" }
+				id: "59D55B09FD302877"
+				type: "use_block"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4757011020010001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extendedcrafting:ender_crafter"
+			}
+			id: "4757011000000003"
+			optional: true
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757011020030001"
+					item: { count: 1, id: "extendedcrafting:ender_crafter" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757011020030002"
+					item: { count: 1, id: "extendedcrafting:ender_alternator" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4757011020010001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extendedcrafting:flux_crafter"
+			}
+			id: "4757011000000004"
+			optional: true
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757011020040001"
+					item: { count: 1, id: "extendedcrafting:flux_crafter" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757011020040002"
+					item: { count: 1, id: "extendedcrafting:flux_alternator" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4757011020010001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "ironfurnaces:crystal_furnace"
+			}
+			id: "4757011000000103"
+			optional: true
+			rewards: [{
+				id: "4757013000080001"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000080001"
+				item: { count: 1, id: "ironfurnaces:crystal_furnace" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4757011000000103"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "ironfurnaces:obsidian_furnace"
+			}
+			id: "4757011000000104"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000090001"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0963247153108841"
+					table_id: 1094262142621472913L
+					type: "loot"
+				}
+				{
+					id: "3290284C3A3D451E"
+					item: {
+						count: 1
+						id: "ironfurnaces:obsidian_furnace"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000090001"
+				item: { count: 1, id: "ironfurnaces:obsidian_furnace" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4757011000000103"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "ironfurnaces:augment_blasting"
+			}
+			id: "4757011000000105"
+			optional: true
+			rewards: [
+				{
+					id: "47570130000A0001"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "102DA4C166D884DD"
+					table_id: 1094262142621472913L
+					type: "loot"
+				}
+				{
+					id: "280AEE1263FADEB9"
+					item: {
+						count: 1
+						id: "ironfurnaces:augment_blasting"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120000A0001"
+					item: { count: 1, id: "ironfurnaces:augment_blasting" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120000A0002"
+					item: { count: 1, id: "ironfurnaces:augment_smoking" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4757011020010001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "mekanismtools:diamond_paxel"
+			}
+			id: "4757011000000106"
+			optional: true
+			rewards: [{
+				id: "47570130000B0002"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "47570120000B0001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(mekanismtools:iron_paxel),item(mekanismtools:gold_paxel),item(mekanismtools:diamond_paxel)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4757011000000106"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "mekanismtools:osmium_helmet"
+			}
+			id: "4757011000000107"
+			optional: true
+			rewards: [{
+				id: "47570130000C0001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120000C0001"
+					item: { count: 1, id: "mekanismtools:osmium_helmet" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120000C0002"
+					item: { count: 1, id: "mekanismtools:osmium_chestplate" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120000C0003"
+					item: { count: 1, id: "mekanismtools:osmium_leggings" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120000C0004"
+					item: { count: 1, id: "mekanismtools:osmium_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4757011000000106"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "electrodynamics:jetpack"
+			}
+			id: "4757011000000108"
+			optional: true
+			rewards: [{
+				id: "47570130000D0001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "47570120000D0001"
+				item: { count: 1, id: "electrodynamics:jetpack" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4757011000000108"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "electrodynamics:nightvisiongoggles"
+			}
+			id: "4757011000000109"
+			optional: true
+			rewards: [
+				{
+					id: "47570130000E0001"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1D6A6A9EB3205CE9"
+					table_id: 1094262142621472913L
+					type: "loot"
+				}
+				{
+					id: "2F290880D1CC6AA0"
+					item: {
+						count: 1
+						id: "electrodynamics:nightvisiongoggles"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "47570120000E0001"
+				item: { count: 1, id: "electrodynamics:nightvisiongoggles" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4757011000000108"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "electrodynamics:electricbaton"
+			}
+			id: "475701100000010A"
+			optional: true
+			rewards: [
+				{
+					id: "47570130000F0001"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5BC15F68BD00290A"
+					table_id: 1094262142621472913L
+					type: "loot"
+				}
+				{
+					id: "42AF088BE122545E"
+					item: {
+						count: 1
+						id: "electrodynamics:electricbaton"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "47570120000F0001"
+				item: { count: 1, id: "electrodynamics:electricbaton" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4757011020010001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "arsenal:unique_claymore_2"
+			}
+			id: "475701100000010B"
+			optional: true
+			rewards: [{
+				id: "4757013000100001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000100001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(arsenal:unique_claymore_2),item(arsenal:unique_dagger_2),item(arsenal:unique_sickle_2),item(arsenal:unique_mace_2)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["475701100000010B"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "arsenal:unique_spear_2"
+			}
+			id: "475701100000010C"
+			optional: true
+			rewards: [{
+				id: "4757013000110001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000110001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(arsenal:unique_spear_2),item(arsenal:unique_glaive_2),item(arsenal:unique_double_axe_2),item(arsenal:unique_hammer_2)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["475701100000010C"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "arsenal:unique_longbow_2"
+			}
+			id: "475701100000010D"
+			optional: true
+			rewards: [{
+				id: "4757013000120001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000120001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(arsenal:unique_longbow_2),item(arsenal:unique_heavy_crossbow_2),item(arsenal:unique_shield_2)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["475701100000010D"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "arsenal:unique_staff_damage_4"
+			}
+			id: "475701100000010E"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000130001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "248CC3DE1DD2931E"
+					table_id: 1094262142621472913L
+					type: "loot"
+				}
+				{
+					id: "6EE4D1FBB4F21E3B"
+					item: {
+						count: 1
+						id: "arsenal:unique_staff_damage_4"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000130001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(arsenal:unique_staff_damage_3),item(arsenal:unique_staff_damage_4),item(arsenal:unique_staff_damage_5),item(arsenal:unique_staff_damage_6),item(arsenal:unique_staff_heal_2)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4757011020010001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "aether:enchanted_gravitite"
+			}
+			id: "475701100000010F"
+			optional: true
+			rewards: [{
+				id: "4757013000140001"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000140001"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["475701100000010F"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "aether:gravitite_pickaxe"
+			}
+			id: "4757011000000110"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000150001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "741482C9D3A04F3D"
+					table_id: 1094262142621472913L
+					type: "loot"
+				}
+				{
+					id: "797EC42E2476121A"
+					item: {
+						count: 1
+						id: "aether:gravitite_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000150001"
+					item: { count: 1, id: "aether:gravitite_pickaxe" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000150002"
+					item: { count: 1, id: "aether:gravitite_axe" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000150003"
+					item: { count: 1, id: "aether:gravitite_shovel" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000150004"
+					item: { count: 1, id: "aether:gravitite_hoe" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000150005"
+					item: { count: 1, id: "aether:gravitite_sword" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["475701100000010F"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "aether:gravitite_helmet"
+			}
+			id: "4757011000000111"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000160001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3393E33633468C14"
+					table_id: 1094262142621472913L
+					type: "loot"
+				}
+				{
+					id: "393A3F71942EC18E"
+					item: {
+						count: 1
+						id: "aether:gravitite_helmet"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000160001"
+					item: { count: 1, id: "aether:gravitite_helmet" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000160002"
+					item: { count: 1, id: "aether:gravitite_chestplate" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000160003"
+					item: { count: 1, id: "aether:gravitite_leggings" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000160004"
+					item: { count: 1, id: "aether:gravitite_boots" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000160005"
+					item: { count: 1, id: "aether:gravitite_gloves" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["475701100000010F"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "aether:aerogel"
+			}
+			id: "4757011000000112"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000170001"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "10B8FAD72C1AA088"
+					table_id: 1094262142621472913L
+					type: "loot"
+				}
+				{
+					id: "3C31D5E2D16DDC07"
+					item: {
+						count: 1
+						id: "aether:aerogel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000170001"
+				item: { count: 1, id: "aether:aerogel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["475701100000010F"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "aether:gold_dungeon_key"
+			}
+			id: "4757011000000113"
+			optional: true
+			rewards: [{
+				id: "4757013000180002"
+				type: "xp"
+				xp: 250
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000180001"
+				item: { count: 1, id: "aether:gold_dungeon_key" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4757011000000113"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "aether:phoenix_chestplate"
+			}
+			id: "4757011000000114"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000190001"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "62FA24E11B55568C"
+					item: {
+						count: 1
+						id: "aether:phoenix_chestplate"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000190001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(aether:phoenix_helmet),item(aether:phoenix_chestplate),item(aether:phoenix_leggings),item(aether:phoenix_boots),item(aether:phoenix_gloves),item(aether:phoenix_bow)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4757011000000113"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "aether:ice_ring"
+			}
+			id: "4757011000000115"
+			optional: true
+			rewards: [{
+				id: "47570130001A0001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "47570120001A0001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(aether:ice_pendant),item(aether:ice_ring),item(aether:iron_bubble),item(aether:life_shard)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4757011000000115"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "aether:vampire_blade"
+			}
+			id: "4757011000000116"
+			optional: true
+			rewards: [
+				{
+					id: "47570130001B0001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4688C4341D61F1D9"
+					item: {
+						count: 1
+						id: "aether:vampire_blade"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "47570120001B0001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(aether:vampire_blade),item(aether:pig_slayer)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["475701100000010F"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:skyjade"
+			}
+			id: "4757011000000117"
+			optional: true
+			rewards: [{
+				id: "47570130001C0001"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "47570120001C0001"
+				item: { count: 1, id: "deep_aether:skyjade" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4757011000000117"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:skyjade_helmet"
+			}
+			id: "4757011000000118"
+			optional: true
+			rewards: [
+				{
+					id: "47570130001D0001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C5BB4D38E3CCA8D"
+					item: {
+						count: 1
+						id: "deep_aether:skyjade_chestplate"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120001D0001"
+					item: { count: 1, id: "deep_aether:skyjade_helmet" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120001D0002"
+					item: { count: 1, id: "deep_aether:skyjade_chestplate" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120001D0003"
+					item: { count: 1, id: "deep_aether:skyjade_leggings" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120001D0004"
+					item: { count: 1, id: "deep_aether:skyjade_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4757011000000117"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:stratus_ingot"
+			}
+			id: "4757011000000119"
+			optional: true
+			rewards: [{
+				id: "47570130001E0001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "47570120001E0001"
+				item: { count: 1, id: "deep_aether:stratus_ingot" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4757011000000119"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:stratus_helmet"
+			}
+			id: "475701100000011A"
+			optional: true
+			rewards: [
+				{
+					id: "47570130001F0001"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "79308A996AE44E68"
+					item: {
+						count: 1
+						id: "deep_aether:stratus_chestplate"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120001F0001"
+					item: { count: 1, id: "deep_aether:stratus_helmet" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120001F0002"
+					item: { count: 1, id: "deep_aether:stratus_chestplate" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120001F0003"
+					item: { count: 1, id: "deep_aether:stratus_leggings" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "47570120001F0004"
+					item: { count: 1, id: "deep_aether:stratus_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4757011000000117"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:stormforged_chestplate"
+			}
+			id: "475701100000011B"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000200001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4FBC75728285ED23"
+					item: {
+						count: 1
+						id: "deep_aether:stormforged_chestplate"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000200001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(deep_aether:stormforged_helmet),item(deep_aether:stormforged_chestplate),item(deep_aether:stormforged_leggings),item(deep_aether:stormforged_boots)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4757011000000117"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:brass_dungeon_key"
+			}
+			id: "475701100000011C"
+			optional: true
+			rewards: [{
+				id: "4757013000210001"
+				type: "xp"
+				xp: 250
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000210001"
+				item: { count: 1, id: "deep_aether:brass_dungeon_key" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["475701100000011C"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:sun_core"
+			}
+			id: "475701100000011D"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000220001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "051C9AAC6455AD0B"
+					item: {
+						count: 1
+						id: "deep_aether:sun_core"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000220001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(deep_aether:bio_crystal),item(deep_aether:golden_swet_ball),item(deep_aether:sun_core)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4757011000000117"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:aercloud_necklace"
+			}
+			id: "475701100000011E"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000230001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F0F80F9FAF99066"
+					item: {
+						count: 1
+						id: "deep_aether:aercloud_necklace"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000230001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(deep_aether:aercloud_necklace),item(deep_aether:gravitite_ring),item(deep_aether:afterburner)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4757011000000107"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deeperdarker:warden_helmet"
+			}
+			id: "475701100000011F"
+			optional: true
+			rewards: [{
+				id: "4757013000240001"
+				type: "xp"
+				xp: 250
+			}]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000240001"
+					item: { count: 1, id: "deeperdarker:warden_helmet" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000240002"
+					item: { count: 1, id: "deeperdarker:warden_chestplate" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000240003"
+					item: { count: 1, id: "deeperdarker:warden_leggings" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4757012000240004"
+					item: { count: 1, id: "deeperdarker:warden_boots" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["475701100000011F"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "unusualend:spirit_smile_helmet"
+			}
+			id: "4757011000000120"
+			optional: true
+			rewards: [{
+				id: "4757013000250001"
+				type: "xp"
+				xp: 150
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000250001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(unusualend:spirit_grim_helmet),item(unusualend:spirit_malice_helmet),item(unusualend:spirit_mania_helmet),item(unusualend:spirit_smile_helmet),item(unusualend:spirit_twist_helmet),item(unusualend:spirit_vice_helmet)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4757011000000120"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"!minecraft:custom_data": { }
+				}
+				id: "unusualend:void_totem"
+			}
+			id: "4757011000000121"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000260001"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1BA42CC34D1CB999"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_chestplate"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000260001"
+				item: { components: { "!minecraft:custom_data": { } }, count: 1, id: "unusualend:void_totem" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4757011000000003"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "extendedcrafting:auto_ender_crafter"
+			}
+			id: "4757011000000101"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000060001"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "40E14C6F0C62E778"
+					item: {
+						count: 1
+						id: "extendedcrafting:auto_ender_crafter"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000060001"
+				item: { count: 1, id: "extendedcrafting:auto_ender_crafter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4757011000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "extendedcrafting:auto_flux_crafter"
+			}
+			id: "4757011000000102"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000070001"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4B1A6C442131A949"
+					item: {
+						count: 1
+						id: "extendedcrafting:auto_flux_crafter"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000070001"
+				item: { count: 1, id: "extendedcrafting:auto_flux_crafter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["475701100000011C"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "deep_aether:storm_sword"
+			}
+			id: "4757011000000130"
+			optional: true
+			rewards: [
+				{
+					id: "4757013000300001"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2EBFE4C5C176289C"
+					item: {
+						count: 1
+						id: "deep_aether:storm_sword"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4757012000300001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(deep_aether:storm_sword),item(deep_aether:storm_bow),item(deep_aether:cloud_cape),item(deep_aether:stormforged_gloves)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+	]
+}

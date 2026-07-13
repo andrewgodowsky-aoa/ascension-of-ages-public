@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:chorus_fruit"
+	}
+	id: "66EC562F89C631DC"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 8
+			id: "66EC562F89C63101"
+			item: {
+				count: 1
+				id: "minecraft:chorus_fruit"
+			}
+		}
+		{
+			count: 8
+			id: "66EC562F89C63102"
+			item: {
+				count: 1
+				id: "minecraft:popped_chorus_fruit"
+			}
+		}
+		{
+			count: 4
+			id: "66EC562F89C63103"
+			item: {
+				count: 1
+				id: "minecraft:nautilus_shell"
+			}
+		}
+		{
+			count: 8
+			id: "66EC562F89C63104"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 8
+			id: "66EC562F89C63105"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+		}
+		{
+			count: 8
+			id: "66EC562F89C63106"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_crystals"
+			}
+		}
+	]
+	use_title: true
+}

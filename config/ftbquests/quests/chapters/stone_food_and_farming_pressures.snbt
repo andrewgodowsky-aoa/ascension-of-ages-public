@@ -1,0 +1,503 @@
+{
+	autofocus_id: "34000000000003C1"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "stone_food_and_farming_pressures"
+	group: "12B6640DF4C0DCFE"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:wheat_seeds"
+	}
+	id: "3400000000001400"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "34000000000003C1"
+			shape: "diamond"
+			size: 1.25d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "34000000000003C3"
+				item: { count: 1, id: "minecraft:stone_hoe" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34000000000003C1"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "3400000000001414"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "5224B82E797C468F"
+				item: { count: 1, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3400000000001414"]
+			dependency_requirement: "one_completed"
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "34000000000003C5"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 16L
+				id: "0CFB16259E42E10E"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34000000000003C5"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:potato"
+			}
+			id: "34000000000003CD"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 32L
+				id: "68DD7BEE9C7E199A"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34000000000003CD"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "3400000000001424"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				count: 8L
+				id: "3400000000001425"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3400000000001424"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "3400000000001427"
+			rewards: [{
+				id: "0D6E45F6B144256E"
+				table_id: 5436581340023809857L
+				type: "loot"
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "3400000000001428"
+				item: { count: 1, id: "minecraft:composter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3400000000001424"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "34000000000003D1"
+			rewards: [{
+				count: 2
+				id: "01220005751EFC1A"
+				item: {
+					count: 1
+					id: "minecraft:cooked_cod"
+				}
+				type: "item"
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "34000000000003D3"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34000000000003C5"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "3F33D0F200BD6ED5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "476665FBF45E5307"
+				table_id: 5436581340023809857L
+				type: "loot"
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "14B35990436DE0C7"
+				item: { count: 1, id: "regions_unexplored:blackwood_sapling" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["097AED7C91033D5E"]
+			disable_recipe_mod: false
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "2973560A44DEC9A5"
+			rewards: [{
+				id: "319EDABE73A27948"
+				table_id: 5436581340023809857L
+				type: "loot"
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "67AF0688A918864D"
+				item: { count: 1, id: "aquaculture:fishing_line" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34000000000003D1"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "6F697569C417FCCE"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "3EE50D625C38D840"
+				item: { count: 1, id: "aquaculture:stone_fillet_knife" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34000000000003C5"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "15F65C76BE09F690"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "15918D12C8D819EA"
+				item: { count: 1, id: "minecraft:smoker" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3400000000001414"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "eclipticseasons:calendar"
+			}
+			id: "62FF13481B0696BA"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "76B7B355617588FC"
+				item: { count: 1, id: "eclipticseasons:calendar" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62FF13481B0696BA"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "11C25203906C0FD4"
+			rewards: [{
+				id: "2C105D89E6EDE3FE"
+				item: {
+					count: 1
+					id: "eclipticseasons:hygrometer"
+				}
+				type: "item"
+			}]
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "79E9884DBCAE604C"
+					item: { count: 1, id: "eclipticseasons:block_in_wooden_grate_block" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "03EE105893854750"
+					item: { count: 1, id: "eclipticseasons:greenhouse_core_container" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "2F350BF7B2E715A8"
+					item: { count: 1, id: "eclipticseasons:growth_detector" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "4A6896A80C159791"
+					item: { count: 1, id: "eclipticseasons:seasonal_prayer_scroll" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "44AB1BC3CB6D51F3"
+					item: { count: 1, id: "eclipticseasons:thermometer" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+	]
+}

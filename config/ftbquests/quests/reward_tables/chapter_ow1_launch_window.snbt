@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:firework_rocket"
+	}
+	id: "60C3CB7AEC1851BB"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{
+			count: 8
+			id: "60C3CB7AEC185101"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+		}
+		{
+			count: 8
+			id: "60C3CB7AEC185102"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+		}
+		{
+			count: 8
+			id: "60C3CB7AEC185103"
+			item: {
+				count: 1
+				id: "minecraft:cooked_cod"
+			}
+		}
+		{
+			count: 8
+			id: "60C3CB7AEC185104"
+			item: {
+				count: 1
+				id: "minecraft:dried_kelp"
+			}
+		}
+		{
+			count: 8
+			id: "60C3CB7AEC185105"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+		}
+		{
+			count: 8
+			id: "60C3CB7AEC185106"
+			item: {
+				count: 1
+				id: "minecraft:melon_slice"
+			}
+		}
+	]
+	use_title: true
+}

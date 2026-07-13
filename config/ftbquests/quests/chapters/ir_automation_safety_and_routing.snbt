@@ -1,0 +1,2091 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "ir_automation_safety_and_routing"
+	group: "3F77A31B7D30C0AA"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "projectred_expansion:deployer"
+	}
+	id: "49540A0000000000"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4954011000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "projectred_expansion:deployer"
+			}
+			id: "49540A1000000004"
+			rewards: [{
+				id: "49540A3000004000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000004000"
+				item: { count: 1, id: "projectred_expansion:deployer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49540A1000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_expansion:block_breaker"
+			}
+			id: "49540A1000000005"
+			rewards: [{
+				id: "49540A3000005000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000005000"
+				item: { count: 1, id: "projectred_expansion:block_breaker" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49540A1000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_expansion:transposer"
+			}
+			id: "49540A1000000006"
+			rewards: [{
+				id: "49540A3000006000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000006000"
+				item: { count: 1, id: "projectred_expansion:transposer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["49540A1000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_expansion:auto_crafter"
+			}
+			id: "49540A1000000007"
+			rewards: [{
+				id: "49540A3000007000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000007000"
+				item: { count: 1, id: "projectred_expansion:auto_crafter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4954011000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "integrateddynamics:logic_programmer"
+			}
+			id: "49540A1000000009"
+			rewards: [{
+				id: "49540A3000009000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "49540A2000009000"
+					item: { count: 1, id: "integrateddynamics:logic_programmer" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "49540A2000009001"
+					item: { count: 1, id: "integrateddynamics:variable" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49540A1000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_expansion:frame_motor"
+			}
+			id: "49540A100000000D"
+			rewards: [{
+				id: "49540A300000D000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000D000"
+				item: { count: 1, id: "projectred_expansion:frame_motor" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"49540A1000000004"
+				"49540A1000000007"
+				"49540A1000000009"
+				"49540A1000000017"
+				"49540A1000000011"
+				"49540A100000001C"
+				"49540A1000000012"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "integrateddynamics:materializer"
+			}
+			id: "49540A100000000F"
+			rewards: [{
+				auto: "invisible"
+				id: "49540A300000F002"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "ir_digital_logistics_complete"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000F000"
+				item: { count: 1, id: "integrateddynamics:logic_programmer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["49540A1000000009"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "integrateddynamics:proxy"
+			}
+			id: "49540A1000000011"
+			rewards: [{
+				id: "49540A3000011000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000011000"
+				item: { count: 1, id: "integrateddynamics:proxy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49540A1000000011"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "integrateddynamics:materializer"
+			}
+			id: "49540A1000000012"
+			rewards: [{
+				id: "49540A3000012000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000012000"
+				item: { count: 1, id: "integrateddynamics:materializer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["49540A1000000009"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "integrateddynamics:mechanical_squeezer"
+			}
+			id: "49540A1000000013"
+			rewards: [{
+				id: "49540A3000013000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000013000"
+				item: { count: 1, id: "integrateddynamics:mechanical_squeezer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49540A1000000013"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "integrateddynamics:drying_basin"
+			}
+			id: "49540A1000000014"
+			rewards: [
+				{
+					id: "49540A3000014000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "509CB13A86AC0F75"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000014000"
+				item: { count: 1, id: "integrateddynamics:drying_basin" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49540A1000000009"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "integrateddynamics:coal_generator"
+			}
+			id: "49540A1000000015"
+			rewards: [
+				{
+					id: "49540A3000015000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0467CEA60DD2E5BC"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000015000"
+				item: { count: 1, id: "integrateddynamics:coal_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4954011000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "enderio:conduit_binder"
+			}
+			id: "49540A1000000016"
+			rewards: [{
+				id: "49540A3000016000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000016000"
+				item: { count: 1, id: "enderio:conduit_binder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49540A1000000016"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:conduit"
+			}
+			id: "49540A1000000017"
+			rewards: [{
+				id: "49540A3000017000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000017000"
+				item: { count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["49540A1000000017"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:basic_item_filter"
+			}
+			id: "49540A1000000018"
+			rewards: [
+				{
+					id: "49540A3000018000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2BFF6FF768F0AD3C"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000018000"
+				item: { count: 1, id: "enderio:basic_item_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["49540A1000000017"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:basic_fluid_filter"
+			}
+			id: "49540A1000000019"
+			rewards: [
+				{
+					id: "49540A3000019000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6507664C286F94AA"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000019000"
+				item: { count: 1, id: "enderio:basic_fluid_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["49540A1000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_expansion:pneumatic_tube"
+			}
+			id: "49540A100000001C"
+			rewards: [{
+				id: "49540A300001C000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200001C000"
+				item: { count: 1, id: "projectred_expansion:pneumatic_tube" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4954011000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "projectred_expansion:battery_box"
+			}
+			id: "49540A100000001D"
+			rewards: [
+				{
+					id: "49540A300001D000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "08311B816453985D"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200001D000"
+				item: { count: 1, id: "projectred_expansion:battery_box" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49540A1000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_core:silicon"
+			}
+			id: "49540A100000001E"
+			rewards: [{
+				id: "082555B0842A8D4F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000001E"
+				item: { count: 1, id: "projectred_core:silicon" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49540A100000001E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_core:silicon_chip"
+			}
+			id: "49540A100000001F"
+			rewards: [{
+				id: "13CCCB27C5C61D66"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000001F"
+				item: { count: 1, id: "projectred_core:silicon_chip" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49540A100000001E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_core:infused_silicon"
+			}
+			id: "49540A1000000020"
+			rewards: [{
+				id: "072899FAA2385429"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000020"
+				item: { count: 1, id: "projectred_core:infused_silicon" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49540A1000000020"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_core:energized_silicon"
+			}
+			id: "49540A1000000021"
+			rewards: [{
+				id: "4C3CEE1F79E3C3B4"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000021"
+				item: { count: 1, id: "projectred_core:energized_silicon" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49540A1000000021"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_core:energized_silicon_chip"
+			}
+			id: "49540A1000000022"
+			rewards: [
+				{
+					id: "44332A0A417AD0C0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "07C84935BADA3A7D"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000022"
+				item: { count: 1, id: "projectred_core:energized_silicon_chip" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49540A100000001F"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "projectred_integration:state_cell_gate"
+			}
+			id: "49540A1000000023"
+			rewards: [
+				{
+					id: "1BF128F1D4408AC6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7FDEC70C628BAE6D"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000023"
+				item: { count: 1, id: "projectred_integration:state_cell_gate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49540A1000000009"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "integrateddynamics:cable"
+			}
+			id: "49540A1000000024"
+			rewards: [
+				{
+					id: "45AF37D817599933"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "38FA7B4E1907CD72"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000024"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49540A1000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:sag_mill"
+			}
+			id: "49540A1000000025"
+			rewards: [
+				{
+					id: "01C48CDC71DF678A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4DDB569055FBFB7C"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000025"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49540A1000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:alloy_smelter"
+			}
+			id: "49540A1000000026"
+			rewards: [{
+				id: "1AD529D42F93FEEB"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000026"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["49540A1000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:stirling_generator"
+			}
+			id: "49540A1000000027"
+			rewards: [{
+				id: "61EC54A33C2BFC21"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000027"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49540A1000000026"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:vat"
+			}
+			id: "49540A1000000028"
+			rewards: [{
+				id: "3E9EAA67441FC2E3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000028"
+				item: { count: 1, id: "enderio:vat" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["49540A1000000028"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:fluid_tank"
+			}
+			id: "49540A1000000039"
+			rewards: [{
+				id: "49540A3000000039"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000039"
+				item: { count: 1, id: "enderio:fluid_tank" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["49540A1000000039"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:pressurized_fluid_tank"
+			}
+			id: "49540A100000003A"
+			rewards: [{
+				id: "49540A300000003A"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000003A"
+				item: { count: 1, id: "enderio:pressurized_fluid_tank" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["49540A1000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:painting_machine"
+			}
+			id: "49540A1000000029"
+			rewards: [{
+				id: "176ADAB5A500E91C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000029"
+				item: { count: 1, id: "enderio:painting_machine" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49540A1000000017"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:impulse_hopper"
+			}
+			id: "49540A100000002A"
+			rewards: [{
+				id: "2E9597D151514DCA"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000002A"
+				item: { count: 1, id: "enderio:impulse_hopper" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["49540A1000000017"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:drain"
+			}
+			id: "49540A100000002B"
+			rewards: [{
+				id: "47F7758F977F8578"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000002B"
+				item: { count: 1, id: "enderio:drain" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["49540A1000000031"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:wired_charger"
+			}
+			id: "49540A100000002C"
+			rewards: [{
+				id: "12301C5C128CDA40"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000002C"
+				item: { count: 1, id: "enderio:wired_charger" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49540A1000000017"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:vacuum_chest"
+			}
+			id: "49540A100000002D"
+			rewards: [{
+				id: "1B5A582A62BD4021"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000002D"
+				item: { count: 1, id: "enderio:vacuum_chest" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["49540A100000002D"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:xp_vacuum"
+			}
+			id: "49540A100000002E"
+			rewards: [{
+				id: "660FE9CAE3553DE8"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000002E"
+				item: { count: 1, id: "enderio:xp_vacuum" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["49540A1000000026"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:enchanter"
+			}
+			id: "49540A100000002F"
+			rewards: [{
+				id: "693612760AA9FFD3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A200000002F"
+				item: { count: 1, id: "enderio:enchanter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["49540A1000000017"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:travel_anchor"
+			}
+			id: "49540A1000000030"
+			rewards: [{
+				id: "2CAB45DDF7859A48"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000030"
+				item: { count: 1, id: "enderio:travel_anchor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["49540A1000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:basic_capacitor_bank"
+			}
+			id: "49540A1000000031"
+			rewards: [{
+				id: "3C9320A359302A89"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000031"
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49540A1000000016"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "enderio:basic_capacitor"
+			}
+			id: "49540A1000000032"
+			rewards: [{
+				id: "4BA344F9EBFFF92F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000032"
+				item: { count: 1, id: "enderio:basic_capacitor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["49540A100000000D"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "assemblyline:conveyorbelt"
+			}
+			id: "49540A1000000033"
+			rewards: [{
+				id: "484233F6715F1418"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000033"
+				item: { count: 1, id: "assemblyline:conveyorbelt" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49540A1000000033"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "assemblyline:sorterbelt"
+			}
+			id: "49540A1000000034"
+			rewards: [{
+				id: "29E3F7081E3C139F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000034"
+				item: { count: 1, id: "assemblyline:sorterbelt" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49540A1000000033"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "assemblyline:blockbreaker"
+			}
+			id: "49540A1000000035"
+			rewards: [{
+				id: "75C95DC8DAA57F0E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000035"
+				item: { count: 1, id: "assemblyline:blockbreaker" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49540A1000000033"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "assemblyline:blockplacer"
+			}
+			id: "49540A1000000036"
+			rewards: [{
+				id: "3EB12C09AAAD7BB0"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000036"
+				item: { count: 1, id: "assemblyline:blockplacer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49540A1000000033"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "assemblyline:detector"
+			}
+			id: "49540A1000000037"
+			rewards: [{
+				id: "3F4413BA4AD2F6EA"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000037"
+				item: { count: 1, id: "assemblyline:detector" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49540A1000000033"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "assemblyline:farmer"
+			}
+			id: "49540A1000000038"
+			rewards: [{
+				id: "1269C7CCB2B435D4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "49540A2000000038"
+				item: { count: 1, id: "assemblyline:farmer" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49540A1000000005"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mm_farming:block_crafter_farm"
+			}
+			id: "49540A1000000101"
+			optional: true
+			rewards: [{
+				id: "49540A3000000101"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "49540A2000000101"
+					item: { count: 1, id: "mm_farming:block_crafter_farm" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "49540A2000000111"
+					item: { count: 1, id: "mm_farming:item_fertilizer_world" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["49540A1000000101"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mm_farming:block_controller_system"
+			}
+			id: "49540A1000000102"
+			optional: true
+			rewards: [{
+				id: "49540A3000000102"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "49540A2000000102"
+					item: { count: 1, id: "mm_farming:block_controller_system" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "49540A2000000121"
+					item: { count: 1, id: "mm_farming:block_controller_input" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["49540A1000000102"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mm_farming:block_farm_controller_plant"
+			}
+			id: "49540A1000000103"
+			optional: true
+			rewards: [
+				{
+					id: "49540A3000000103"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "5837ADE02B4EA889"
+					item: {
+						count: 1
+						id: "mm_farming:block_farm_controller_plant"
+					}
+					type: "item"
+				}
+				{
+					id: "0BDE26FD3ABB14D4"
+					table_id: 4033854316056373658L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "49540A2000000103"
+					item: { count: 1, id: "mm_farming:block_farm_controller_plant" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "49540A2000000131"
+					item: { count: 1, id: "mm_farming:block_farm_controller_tree" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 8.5d
+		}
+	]
+}

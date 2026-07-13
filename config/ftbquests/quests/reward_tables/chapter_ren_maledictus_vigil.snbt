@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:arrow"
+	}
+	id: "3C62D5B8ACFA2AC0"
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{
+			count: 4
+			id: "2D1F29AC750BC2CB"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 4
+			id: "495C4AFADA8F71CC"
+			item: {
+				count: 1
+				id: "minecraft:flint_and_steel"
+			}
+		}
+		{
+			count: 4
+			id: "08EFE9715ED03689"
+			item: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+		}
+		{
+			count: 4
+			id: "5C471279C447D72E"
+			item: {
+				count: 1
+				id: "minecraft:beetroot_soup"
+			}
+		}
+		{
+			count: 4
+			id: "37598518DEEA00B7"
+			item: {
+				count: 1
+				id: "minecraft:mangrove_propagule"
+			}
+		}
+	]
+	use_title: true
+}

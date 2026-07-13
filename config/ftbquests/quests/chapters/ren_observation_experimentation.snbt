@@ -1,0 +1,2209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "ren_observation_experimentation"
+	group: "0B038EB15EBBFD95"
+	icon: {
+		id: "theurgy:divination_rod_t1"
+	}
+	id: "0B03001000000008"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B03107000000050"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "theurgy:divination_rod_t1"
+			}
+			id: "0B03108000000001"
+			rewards: [{
+				id: "0B03308000000001"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.5d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				dimension: "minecraft:overworld"
+				id: "0B03208000000001"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0B03101000000013"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B03108000000068"
+			rewards: [{
+				id: "0B03308000000068"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000068"
+				item: { count: 1, id: "theurgy:alchemical_niter_metals_common" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000068"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000069"
+			rewards: [{
+				id: "0B03308000000069"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000069"
+				item: { count: 1, id: "theurgy:alchemical_niter_gems_common" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B03108000000069"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000070"
+			rewards: [{
+				id: "0B03308000000070"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000070"
+				item: { count: 1, id: "theurgy:alchemical_niter_other_minerals_common" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B03108000000070"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000071"
+			rewards: [{
+				id: "0B03308000000071"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000071"
+				item: { count: 1, id: "theurgy:alchemical_niter_crops_abundant" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B03108000000071"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000072"
+			rewards: [{
+				id: "0B03308000000072"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000072"
+				item: { count: 1, id: "theurgy:alchemical_niter_logs_abundant" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0B03108000000072"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000073"
+			rewards: [{
+				id: "0B03308000000073"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000073"
+				item: { count: 1, id: "theurgy:alchemical_niter_mobs_abundant" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0B03108000000073"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000074"
+			rewards: [{
+				id: "0B03308000000074"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000074"
+				item: { count: 1, id: "theurgy:alchemical_niter_animals_common" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0B03108000000074"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000075"
+			rewards: [{
+				id: "0B03308000000075"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000075"
+				item: { count: 1, id: "theurgy:alchemical_sulfur_copper" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000075"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000076"
+			rewards: [{
+				id: "0B03308000000076"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000076"
+				item: { count: 1, id: "theurgy:alchemical_sulfur_gold" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000076"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000077"
+			rewards: [{
+				id: "0B03308000000077"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000077"
+				item: { count: 1, id: "theurgy:alchemical_sulfur_lapis" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B03108000000077"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000078"
+			rewards: [{
+				id: "0B03308000000078"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000078"
+				item: { count: 1, id: "theurgy:alchemical_sulfur_amethyst" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B03108000000078"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310800000007D"
+			rewards: [{
+				id: "0B0330800000007D"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320800000007D"
+				item: { count: 1, id: "theurgy:alchemical_sulfur_echo" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B0"
+			optional: true
+			rewards: [
+				{
+					id: "0B033080000000B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F01547A2DCAE656"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B0"
+				item: { count: 1, id: "theurgy:divination_rod_t4" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B1"
+			optional: true
+			rewards: [{
+				id: "0B033080000000B1"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B1"
+				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_abundant" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B031080000000B1"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B2"
+			optional: true
+			rewards: [{
+				id: "0B033080000000B2"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B2"
+				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_common" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B031080000000B2"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B3"
+			optional: true
+			rewards: [{
+				id: "0B033080000000B3"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B3"
+				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_rare" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B031080000000B3"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B4"
+			optional: true
+			rewards: [
+				{
+					id: "0B033080000000B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "6B1F97D2CF7682AA"
+					item: {
+						count: 1
+						id: "theurgy:sulfur_attuned_divination_rod_precious"
+					}
+					type: "item"
+				}
+				{
+					id: "5754917B05242B28"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B4"
+				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_precious" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B5"
+			optional: true
+			rewards: [{
+				id: "0B033080000000B5"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B5"
+				item: { count: 1, id: "theurgy:alchemical_niter_metals_rare" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B031080000000B5"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B6"
+			optional: true
+			rewards: [{
+				id: "0B033080000000B6"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B6"
+				item: { count: 1, id: "theurgy:alchemical_niter_gems_rare" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0B031080000000B6"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B7"
+			optional: true
+			rewards: [{
+				id: "0B033080000000B7"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B7"
+				item: { count: 1, id: "theurgy:alchemical_niter_other_minerals_rare" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0B031080000000B7"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B8"
+			optional: true
+			rewards: [{
+				id: "0B033080000000B8"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B8"
+				item: { count: 1, id: "theurgy:alchemical_niter_animals_rare" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0B031080000000B8"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000B9"
+			optional: true
+			rewards: [
+				{
+					id: "0B033080000000B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "5744CDD5A9EB9EAA"
+					item: {
+						count: 1
+						id: "theurgy:alchemical_niter_mobs_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "23D6E56DC4D224AA"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000B9"
+				item: { count: 1, id: "theurgy:alchemical_niter_mobs_rare" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0B0310800000007D"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000BB"
+			optional: true
+			rewards: [{
+				id: "0B033080000000BB"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000BB"
+				item: { count: 1, id: "theurgy:alchemical_sulfur_lunar" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B031080000000BB"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000BC"
+			optional: true
+			rewards: [
+				{
+					id: "0B033080000000BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0817F0D6929F038D"
+					item: {
+						count: 1
+						id: "theurgy:alchemical_sulfur_deepslate"
+					}
+					type: "item"
+				}
+				{
+					id: "274E5EA93D66A71E"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000BC"
+				item: { count: 1, id: "theurgy:alchemical_sulfur_deepslate" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03107000000050"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B031080000000D2"
+			optional: true
+			rewards: [{
+				id: "0B033080000000D2"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "gear"
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000D2"
+				mode: "ALL"
+				required: 1L
+				targets: ["0B031B1000000002"]
+				type: "check_quest"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000D3"
+			optional: true
+			rewards: [
+				{
+					id: "0B033080000000D3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "22C5B186E2610F27"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000D3"
+				item: { count: 1, id: "create:experience_nugget" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000D4"
+			rewards: [{
+				id: "0B033080000000D4"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000D4"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B031080000000D4"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000F2"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0B03308000000050"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "ren_observation_experimentation_complete"
+					type: "astages:player"
+				}
+				{
+					id: "0B03308000000054"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "gear"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000F2"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000FA"
+			rewards: [{
+				id: "0B033080000000FA"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000FA"
+				item: { count: 1, id: "generatorgalore:gold_generator" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B031080000000FA"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000FB"
+			optional: true
+			rewards: [{
+				id: "0B033080000000FB"
+				type: "xp"
+				xp: 5
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000FB"
+				item: { count: 1, id: "generatorgalore:copper_generator" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B031080000000FB"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000FC"
+			optional: true
+			rewards: [{
+				id: "0B033080000000FC"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000FC"
+				item: { count: 1, id: "generatorgalore:iron_generator" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B031080000000FC"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000FD"
+			optional: true
+			rewards: [
+				{
+					id: "0B033080000000FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F56FF899C748F9B"
+					item: {
+						count: 1
+						id: "generatorgalore:iron_to_gold_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "3E7D2A41341CC6AB"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000FD"
+				item: { count: 1, id: "generatorgalore:iron_to_gold_upgrade" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B031080000000FA"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000FE"
+			optional: true
+			rewards: [{
+				id: "0B033080000000FE"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000FE"
+				item: { count: 1, id: "generatorgalore:culinary_generator" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B031080000000FE"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000FF"
+			optional: true
+			rewards: [
+				{
+					id: "0B033080000000FF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F1ACE505BD8059F"
+					item: {
+						count: 1
+						id: "generatorgalore:potion_generator"
+					}
+					type: "item"
+				}
+				{
+					id: "02046476595E5C64"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000FF"
+				item: { count: 1, id: "generatorgalore:potion_generator" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000100"
+			optional: true
+			rewards: [{
+				id: "0B03308000000100"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000100"
+				item: { count: 1, id: "constructionwand:diamond_wand" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03108000000100"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000101"
+			optional: true
+			rewards: [
+				{
+					id: "0B03308000000101"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "76C4F5D5E011D89A"
+					item: {
+						count: 1
+						id: "constructionwand:core_angel"
+					}
+					type: "item"
+				}
+				{
+					id: "3022A0EA8A467A64"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000101"
+				item: { count: 1, id: "constructionwand:core_angel" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000102"
+			optional: true
+			rewards: [{
+				id: "0B03308000000102"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000102"
+				item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000102"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000103"
+			optional: true
+			rewards: [{
+				id: "0B03308000000103"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000103"
+				item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000103"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000104"
+			optional: true
+			rewards: [
+				{
+					id: "0B03308000000104"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49762391B6F33D4A"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:deposit_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "7DA2FA3FCDF997A6"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000104"
+				item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000102"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000105"
+			optional: true
+			rewards: [{
+				id: "0B03308000000105"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000105"
+				item: { count: 1, id: "sophisticatedbackpacks:refill_upgrade" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000105"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000106"
+			optional: true
+			rewards: [{
+				id: "0B03308000000106"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000106"
+				item: { count: 1, id: "sophisticatedbackpacks:restock_upgrade" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000106"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000107"
+			optional: true
+			rewards: [
+				{
+					id: "0B03308000000107"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18696A5AF72EA3B0"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:feeding_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "3C905D7C25F1F785"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000107"
+				item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000110"
+			optional: true
+			rewards: [{
+				id: "0B03308000000110"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000110"
+				item: { count: 1, id: "projectred_core:plate" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03108000000110"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000111"
+			optional: true
+			rewards: [{
+				id: "0B03308000000111"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000111"
+				item: { count: 1, id: "projectred_core:red_iron_comp" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03108000000111"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000112"
+			optional: true
+			rewards: [{
+				id: "0B03308000000112"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000112"
+				item: { count: 1, id: "projectred_core:red_ingot" }
+				type: "item"
+			}]
+			x: 41.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B03108000000112"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000113"
+			optional: true
+			rewards: [
+				{
+					id: "0B03308000000113"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "614C91E1E320740D"
+					item: {
+						count: 1
+						id: "projectred_transmission:red_alloy_wire"
+					}
+					type: "item"
+				}
+				{
+					id: "0D10522EBDB0CB9F"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000113"
+				item: { count: 1, id: "projectred_transmission:red_alloy_wire" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000112"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000114"
+			optional: true
+			rewards: [{
+				id: "0B03308000000114"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000114"
+				item: { count: 1, id: "projectred_core:conductive_plate" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000114"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000115"
+			optional: true
+			rewards: [{
+				id: "0B03308000000115"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000115"
+				item: { count: 1, id: "projectred_core:anode" }
+				type: "item"
+			}]
+			x: 41.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000115"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000116"
+			optional: true
+			rewards: [{
+				id: "0B03308000000116"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000116"
+				item: { count: 1, id: "projectred_core:cathode" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B03108000000116"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000117"
+			optional: true
+			rewards: [{
+				id: "0B03308000000117"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000117"
+				item: { count: 1, id: "projectred_integration:not_gate" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000117"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000118"
+			optional: true
+			rewards: [
+				{
+					id: "0B03308000000118"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "67A72D39FE1FBDCC"
+					item: {
+						count: 1
+						id: "projectred_integration:timer_gate"
+					}
+					type: "item"
+				}
+				{
+					id: "364DDA8245B8D484"
+					table_id: 1522908327326249842L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000118"
+				item: { count: 1, id: "projectred_integration:timer_gate" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000112"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000119"
+			optional: true
+			rewards: [
+				{
+					id: "0B03308000000119"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DF7FCE495A94042"
+					item: {
+						count: 1
+						id: "projectred_illumination:red_lantern"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000119"
+				item: { count: 1, id: "projectred_illumination:red_lantern" }
+				type: "item"
+			}]
+			x: 41.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B03108000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "apothic_enchanting:hellshelf"
+			}
+			id: "0B03108000000120"
+			rewards: [{
+				id: "0B033080000001A0"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000120"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B03108000000120"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000121"
+			rewards: [{
+				id: "0B033080000001A1"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000121"
+				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B03108000000121"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "apothic_enchanting:endshelf"
+			}
+			id: "0B03108000000122"
+			rewards: [{
+				id: "0B033080000001A2"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000122"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(apothic_enchanting:seashelf),item(apothic_enchanting:deepshelf),item(apothic_enchanting:endshelf)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B03108000000122"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000123"
+			rewards: [{
+				id: "0B033080000001A3"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000123"
+				item: { count: 1, id: "apothic_enchanting:library" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B03108000000123"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "apothic_enchanting:weapon_tome"
+			}
+			id: "0B03108000000124"
+			optional: true
+			rewards: [{
+				id: "0B033080000001A4"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000124"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(apothic_enchanting:weapon_tome),item(apothic_enchanting:pickaxe_tome),item(apothic_enchanting:helmet_tome),item(apothic_enchanting:chestplate_tome),item(apothic_enchanting:leggings_tome),item(apothic_enchanting:boots_tome),item(apothic_enchanting:bow_tome),item(apothic_enchanting:fishing_tome),item(apothic_enchanting:extraction_tome),item(apothic_enchanting:scrap_tome),item(apothic_enchanting:improved_scrap_tome),item(apothic_enchanting:other_tome)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B03108000000123"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B03108000000125"
+			optional: true
+			rewards: [{
+				id: "0B033080000001A5"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B03208000000125"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+	]
+}

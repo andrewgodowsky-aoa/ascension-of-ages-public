@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:golden_carrot"
+	}
+	id: "7138E5DCEB002340"
+	loot_size: 1
+	order_index: 50
+	rewards: [
+		{
+			count: 4
+			id: "26E5AD834183E2E8"
+			item: {
+				count: 1
+				id: "minecraft:mangrove_propagule"
+			}
+		}
+		{
+			count: 4
+			id: "747F1D7326023BAD"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+		}
+		{
+			count: 4
+			id: "064C3CB66494480D"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+		}
+		{
+			count: 4
+			id: "34425D2186B56330"
+			item: {
+				count: 1
+				id: "minecraft:seagrass"
+			}
+		}
+		{
+			count: 4
+			id: "6069C90793E37787"
+			item: {
+				count: 1
+				id: "minecraft:kelp"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,699 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "ren_maledictus_vigil"
+	group: "0B038EB15EBBFD95"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "cataclysm:cursium_ingot"
+	}
+	id: "0B0300100000000A"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B03106000000050"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B0310A000000010"
+			rewards: [
+				{
+					id: "0B0330A000000010"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0B0330A000000001"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A000000010"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0B031090000000A3"
+				"0B0310A000000010"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B0310A000000011"
+			rewards: [{
+				id: "0B0330A000000011"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A000000011"
+				item: { count: 1, id: "cataclysm:black_steel_ingot" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B0310A000000011"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "0B0310A000000013"
+			rewards: [{
+				id: "0B0330A000000013"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A000000013"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"0B0310A000000010"
+				"0B0310A000000013"
+				"0B03102000000062"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B0310A000000014"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0B0330A000000014"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "ren_maledictus_defeated"
+					type: "astages:player"
+				}
+				{
+					auto: "invisible"
+					id: "0B0330A000000016"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "ren_maledictus_vigil_complete"
+					type: "astages:player"
+				}
+				{
+					id: "0B0330A0000000FE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tags: ["aoa_boss"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "cataclysm:maledictus"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0B0320A000000014"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0B03101000000007"
+				"0B03101000000019"
+				"0B03101000000029"
+				"0B03101000000039"
+				"0B03102000000062"
+				"0B03103000000031"
+				"0B03105000000022"
+				"0B03105000000034"
+				"0B03106000000021"
+				"0B03106000000034"
+				"0B03106000000050"
+				"0B03107000000010"
+				"0B03107000000036"
+				"0B031080000000F2"
+				"0B03109000000012"
+				"0B03109000000022"
+				"0B03109000000023"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B0310A000000031"
+			rewards: [{
+				id: "0B0330A000000031"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A000000031"
+				item: { count: 1, id: "cold_sweat:goat_fur_leggings" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B0310A000000031"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310A000000032"
+			rewards: [{
+				id: "0B0330A000000032"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A000000032"
+				item: { count: 1, id: "mowziesmobs:naga_fang_dagger" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B0310A000000032"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310A000000033"
+			rewards: [{
+				id: "0B0330A000000033"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				biome: "minecraft:snowy_plains"
+				id: "0B0320A000000033"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0B03101000000007"
+				"0B03101000000019"
+				"0B03101000000029"
+				"0B03101000000039"
+				"0B03102000000062"
+				"0B03103000000031"
+				"0B03105000000022"
+				"0B03105000000034"
+				"0B03106000000021"
+				"0B03106000000034"
+				"0B03106000000050"
+				"0B03107000000010"
+				"0B03107000000036"
+				"0B031080000000F2"
+				"0B03109000000012"
+				"0B03109000000022"
+				"0B03109000000023"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B0310A000000041"
+			rewards: [{
+				id: "0B0330A000000041"
+				type: "xp"
+				xp: 10
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A000000041"
+				item: { count: 1, id: "cataclysm:black_steel_sword" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B0310A000000014"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310A000000051"
+			optional: true
+			rewards: [
+				{
+					id: "0B0330A000000051"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7DCBF1CA9F292AAC"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_maledictus"
+					}
+					type: "item"
+				}
+				{
+					id: "117FA15E56DEB646"
+					table_id: 4351275179146095296L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A000000051"
+				item: { count: 1, id: "cataclysm:music_disc_maledictus" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0B0310A000000014"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310A000000052"
+			optional: true
+			rewards: [
+				{
+					id: "0B0330A000000052"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "05201A9E88DB07AD"
+					table_id: 4351275179146095296L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A000000052"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0B0310A000000014"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310A000000054"
+			optional: true
+			rewards: [
+				{
+					id: "0B0330A000000054"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3B40122E21DEE4E3"
+					table_id: 4351275179146095296L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_boss"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "bosses_of_mass_destruction:lich"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0B0320A000000054"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6D7E8F901A2B1026"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B0310A00000005A"
+			optional: true
+			rewards: [{
+				id: "0B0330A00000005A"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0B0320A000000060"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6D7E8F901A2B1026"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "0B0310A00000005B"
+			optional: true
+			rewards: [
+				{
+					id: "0B0330A00000005B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "14C575B40CEB115D"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_sword"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_boss"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					entity: "block_factorys_bosses:underworld_knight"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "0B0320A00000005B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "44540000EE220000"
+					item: { count: 1, id: "block_factorys_bosses:knight_sword" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0B03101000000039"
+				"0B03103000000101"
+				"0B03106000000050"
+				"0B031080000000F2"
+				"0B0310A000000014"
+				"0B03102000000062"
+				"0B03104000000100"
+				"0B03105000000100"
+				"0B03107000000050"
+				"0B03109000000060"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "modern_industrialization:steel_dust"
+			}
+			id: "0B0310A0000000F0"
+			rewards: [
+				{
+					advancement: "aoa:journey/maledictus"
+					auto: "enabled"
+					criterion: ""
+					id: "7D20CAAA672AA2A4"
+					type: "advancement"
+				}
+				{
+					auto: "enabled"
+					id: "0B0330A0000000F2"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "industrial_revolution"
+					type: "astages:player"
+				}
+				{
+					advancement: "aoa:age/industrial_revolution"
+					auto: "enabled"
+					criterion: ""
+					id: "0B0330A0000000F3"
+					type: "advancement"
+				}
+				{
+					auto: "invisible"
+					id: "0B0330A0000000F4"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "ren_seal_obtained"
+					type: "astages:player"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0320A0000000F0"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: 6.0d
+		}
+	]
+}

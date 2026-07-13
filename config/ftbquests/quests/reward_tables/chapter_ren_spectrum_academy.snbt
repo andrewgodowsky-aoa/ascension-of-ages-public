@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:mossy_cobblestone"
+	}
+	id: "204CC3F3A69310B5"
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{
+			count: 4
+			id: "2226C49589840463"
+			item: {
+				count: 1
+				id: "minecraft:mossy_cobblestone"
+			}
+		}
+		{
+			count: 4
+			id: "4C5FEAEFF04DDA57"
+			item: {
+				count: 1
+				id: "minecraft:ice"
+			}
+		}
+		{
+			count: 4
+			id: "6C72CBA60D33243F"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+		}
+		{
+			count: 4
+			id: "78066831E460C81D"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 4
+			id: "1DADDE9CD4482C73"
+			item: {
+				count: 1
+				id: "minecraft:charcoal"
+			}
+		}
+	]
+	use_title: true
+}

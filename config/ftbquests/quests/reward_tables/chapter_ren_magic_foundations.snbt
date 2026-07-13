@@ -1,0 +1,30 @@
+{
+	icon: {
+		id: "minecraft:iron_nugget"
+	}
+	id: "2F35BCD18CA00380"
+	loot_size: 1
+	order_index: 42
+	rewards: [
+		{ id: "4DAF8F53CE9A379A", item: { count: 1, id: "minecraft:iron_nugget" } }
+		{ id: "15CCD7FF63193E48", item: { count: 1, id: "minecraft:gold_nugget" } }
+		{ id: "2B4AFF93B7025645", item: { count: 1, id: "minecraft:amethyst_shard" } }
+		{
+			count: 4
+			id: "6BA063036ABE3A09"
+			item: {
+				count: 1
+				id: "minecraft:stone_bricks"
+			}
+		}
+		{
+			count: 4
+			id: "3436DC5F2C0C3E97"
+			item: {
+				count: 1
+				id: "minecraft:mossy_cobblestone"
+			}
+		}
+	]
+	use_title: true
+}

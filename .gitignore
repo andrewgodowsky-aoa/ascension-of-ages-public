@@ -1,0 +1,135 @@
+# Ascension of Ages source repo ignore rules.
+# Keep authored pack source in Git; keep local runtime, downloads, jars, saves,
+# logs, caches, and generated exports out of GitHub.
+
+# CurseForge / launcher local state
+/.curseclient
+/minecraftinstance.json
+/user-prefs.json
+/usercache.json
+/usernamecache.json
+/command_history.txt
+/options.txt
+/servers.dat
+/servers.dat_old
+/launcher_profiles.json
+
+# Generated mod config files dumped directly into the instance root.
+# Authoritative pack config should live in tracked source folders such as
+# config/, configureddefaults/, defaultconfigs/, kubejs/, datapacks/, and docs/.
+/*.toml
+/*.json
+/*.json5
+/*.jsonc
+/*.cfg
+/*.properties
+/*.yaml
+/*.yml
+/*.ini
+/*.css
+/*.snbt
+/*.txt
+!/#STOP_MOD_REPOSTS.txt
+
+# Generated mod config directories dumped directly into the instance root.
+# Keep only intentional repository source roots visible to Git.
+/*/
+!/.github/
+!/.github/**
+!/config/
+!/config/**
+!/configureddefaults/
+!/configureddefaults/**
+!/defaultconfigs/
+!/defaultconfigs/**
+!/kubejs/
+!/kubejs/**
+!/datapacks/
+!/datapacks/**
+!/docs/
+!/docs/**
+!/tools/
+!/tools/**
+!/progression/
+!/progression/**
+!/_aoa_optional_datapacks/
+!/_aoa_optional_datapacks/**
+
+# Downloaded mods and third-party binary assets
+/mods/
+/resourcepacks/
+/shaderpacks/
+*.jar
+*.zip
+*.7z
+*.rar
+*.mrpack
+*.disabled
+
+# Worlds, local player state, maps, and runtime data
+/saves/
+/journeymap/
+/local/
+/downloads/
+/reports/
+/crash-reports/
+/screenshots/
+/crash_assistant/
+/WaypointData.dat
+/ponders_watched.json
+/TrashSlotSaveState.json
+session.lock
+level.dat
+level.dat_old
+*.mca
+*.mcr
+*.dat_old
+
+# Logs, cache, and generated runtime output
+/logs/
+/.mixin.out/
+/.pg-native/
+/dynamic-data-pack-cache/
+/dynamic-resource-pack-cache/
+*.log
+*.log.gz
+*.tmp
+*.tmp*
+*.temp
+*.cache
+*.dat
+*.pyc
+*.pyo
+*.db
+__pycache__/
+**/__pycache__/
+**/spark/tmp/
+**/spark/tmp-client/
+**/structurify/*backup*.json
+**/data.cache.json
+**/cached.json
+**/cached.dat
+**/user_variables.db
+
+# Backups and generated audit scratch
+/backup/
+/audit_artifacts/
+*.bak
+*.old
+*.orig
+*.rej
+*.202[0-9]*
+*~
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+.superpowers/
+
+# Launcher / editor session noise
+.qmenu_opened.marker
+/configureddefaults/options.txt

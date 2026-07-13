@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:glowstone_dust"
+	}
+	id: "613883F3BA437C79"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 8
+			id: "613883F3BA437C01"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+		}
+		{
+			count: 8
+			id: "613883F3BA437C02"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 8
+			id: "613883F3BA437C03"
+			item: {
+				count: 1
+				id: "minecraft:spider_eye"
+			}
+		}
+		{
+			count: 8
+			id: "613883F3BA437C04"
+			item: {
+				count: 1
+				id: "minecraft:fermented_spider_eye"
+			}
+		}
+		{
+			count: 8
+			id: "613883F3BA437C05"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+		}
+		{
+			count: 8
+			id: "613883F3BA437C06"
+			item: {
+				count: 1
+				id: "minecraft:glass_bottle"
+			}
+		}
+	]
+	use_title: true
+}

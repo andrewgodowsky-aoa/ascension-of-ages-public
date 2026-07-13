@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:melon_seeds"
+	}
+	id: "789888BCA898DF9F"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{
+			count: 4
+			id: "21B27445B5535FC0"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+		}
+		{
+			count: 4
+			id: "2E66498BC92B891B"
+			item: {
+				count: 1
+				id: "minecraft:seagrass"
+			}
+		}
+		{
+			count: 4
+			id: "63A4D1FBC87B5A7D"
+			item: {
+				count: 1
+				id: "minecraft:kelp"
+			}
+		}
+		{
+			count: 4
+			id: "776398D75130385E"
+			item: {
+				count: 1
+				id: "minecraft:oak_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "28C086A9A80A22DC"
+			item: {
+				count: 1
+				id: "minecraft:spruce_sapling"
+			}
+		}
+	]
+	use_title: true
+}

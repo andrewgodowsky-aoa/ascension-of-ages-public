@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:clay_ball"
+	}
+	id: "1FD1C507EFFB7ECE"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 4
+			id: "2E53347BF02EAE54"
+			item: {
+				count: 1
+				id: "minecraft:clay_ball"
+			}
+		}
+		{
+			count: 4
+			id: "5DAB285B6F6888A2"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+		}
+		{
+			count: 4
+			id: "2B5897DD11F83237"
+			item: {
+				count: 1
+				id: "minecraft:feather"
+			}
+		}
+		{
+			count: 4
+			id: "5364C502DC948C97"
+			item: {
+				count: 1
+				id: "minecraft:egg"
+			}
+		}
+		{
+			count: 4
+			id: "725DE79CC0D7D2C2"
+			item: {
+				count: 1
+				id: "minecraft:paper"
+			}
+		}
+	]
+	use_title: true
+}

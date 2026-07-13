@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:blaze_powder"
+	}
+	id: "6188A4C16E4B5FA6"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 8
+			id: "6188A4C16E4B5F01"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+		}
+		{
+			count: 8
+			id: "6188A4C16E4B5F02"
+			item: {
+				count: 1
+				id: "minecraft:fire_charge"
+			}
+		}
+		{
+			count: 8
+			id: "6188A4C16E4B5F03"
+			item: {
+				count: 1
+				id: "minecraft:magma_cream"
+			}
+		}
+		{
+			count: 4
+			id: "6188A4C16E4B5F04"
+			item: {
+				count: 1
+				id: "minecraft:ghast_tear"
+			}
+		}
+		{
+			count: 8
+			id: "6188A4C16E4B5F05"
+			item: {
+				count: 1
+				id: "minecraft:fermented_spider_eye"
+			}
+		}
+		{
+			count: 8
+			id: "6188A4C16E4B5F06"
+			item: {
+				count: 1
+				id: "minecraft:glistering_melon_slice"
+			}
+		}
+	]
+	use_title: true
+}

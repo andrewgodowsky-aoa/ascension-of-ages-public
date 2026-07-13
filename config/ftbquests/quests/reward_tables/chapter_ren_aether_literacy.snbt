@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:quartz"
+	}
+	id: "4235DA902DA19099"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{
+			count: 4
+			id: "6574B7D56F61DB72"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+		}
+		{
+			count: 4
+			id: "77A434E32F191B8C"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 4
+			id: "74EF5A9E70138310"
+			item: {
+				count: 1
+				id: "minecraft:charcoal"
+			}
+		}
+		{
+			count: 4
+			id: "00543658643794BE"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+		}
+		{
+			count: 4
+			id: "7547BFE085A8DAA4"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+	]
+	use_title: true
+}

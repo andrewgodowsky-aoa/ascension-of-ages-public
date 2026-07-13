@@ -1,0 +1,8 @@
+{
+  "_comment": "AoA modded-biome spawn fix: LivingThings owl also lists taigas in config/livingthings/owl.json; re-add on #minecraft:is_taiga so it appears in modded taigas (RU/BWG/Terralith all populate it).",
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_taiga",
+  "spawners": [
+    { "type": "livingthings:owl", "weight": 22, "minCount": 3, "maxCount": 6 }
+  ]
+}

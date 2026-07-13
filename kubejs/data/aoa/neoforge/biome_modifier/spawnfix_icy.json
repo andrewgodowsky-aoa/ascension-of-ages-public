@@ -1,0 +1,8 @@
+{
+  "_comment": "AoA modded-biome spawn fix: EndermanOverhaul's ice_spikes variant is pinned to the vanilla ice_spikes biome only. Re-add on #c:is_icy (RU/BWG/Terralith all populate it) so it appears in modded icy biomes.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_icy",
+  "spawners": [
+    { "type": "endermanoverhaul:ice_spikes_enderman", "weight": 10, "minCount": 1, "maxCount": 4 }
+  ]
+}

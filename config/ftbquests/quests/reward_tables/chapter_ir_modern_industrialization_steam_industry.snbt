@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:cracked_stone_bricks"
+	}
+	id: "35BA5919F34DAD5E"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			count: 4
+			id: "41F5E5EE3881843F"
+			item: {
+				count: 1
+				id: "minecraft:cracked_stone_bricks"
+			}
+		}
+		{
+			count: 4
+			id: "4940926FB48E5A69"
+			item: {
+				count: 1
+				id: "minecraft:mossy_stone_bricks"
+			}
+		}
+		{
+			count: 4
+			id: "5491A2BCE056C28B"
+			item: {
+				count: 1
+				id: "minecraft:chiseled_stone_bricks"
+			}
+		}
+		{
+			count: 4
+			id: "55CA23D7398DAF72"
+			item: {
+				count: 1
+				id: "minecraft:smooth_stone_slab"
+			}
+		}
+		{
+			count: 4
+			id: "74EA32B1D3BBFAC4"
+			item: {
+				count: 1
+				id: "minecraft:stone_brick_wall"
+			}
+		}
+	]
+	use_title: true
+}

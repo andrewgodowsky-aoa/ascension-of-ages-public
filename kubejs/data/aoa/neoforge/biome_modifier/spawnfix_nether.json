@@ -1,0 +1,13 @@
+{
+  "_comment": "AoA modded-biome spawn fix (nether remainder): NetherEx/MonsterPlus/Born in Chaos/EndermanOverhaul nether mobs hard-code vanilla nether biome IDs, so they miss modded nether biomes (Incendium, BetterNether, EternalNether, NetherEx, BWG, RU). Nether sub-biome tags (crimson/soul/basalt) are not populated consistently across those mods, so #minecraft:is_nether is the only reliable target; the mods' original vanilla sub-biome spawns still place them correctly in vanilla nether.",
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_nether",
+  "spawners": [
+    { "type": "netherex:flaemoth", "weight": 15, "minCount": 1, "maxCount": 2 },
+    { "type": "netherex:wisp", "weight": 15, "minCount": 1, "maxCount": 2 },
+    { "type": "monsterplus:soul", "weight": 5, "minCount": 1, "maxCount": 5 },
+    { "type": "born_in_chaos_v1:bone_imp", "weight": 25, "minCount": 1, "maxCount": 2 },
+    { "type": "born_in_chaos_v1:firelight", "weight": 15, "minCount": 1, "maxCount": 3 },
+    { "type": "endermanoverhaul:nether_wastes_enderman", "weight": 1, "minCount": 2, "maxCount": 4 }
+  ]
+}

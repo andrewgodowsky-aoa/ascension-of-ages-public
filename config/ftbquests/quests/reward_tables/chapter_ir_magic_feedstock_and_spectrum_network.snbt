@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "minecraft:magenta_dye"
+	}
+	id: "26502EEE4638CA16"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ id: "2B5F1CE7044EF9DC", item: { count: 1, id: "minecraft:magenta_dye" } }
+		{ id: "458409AE883C87F2", item: { count: 1, id: "minecraft:magenta_candle" } }
+		{
+			count: 4
+			id: "771B59114907CFB1"
+			item: {
+				count: 1
+				id: "minecraft:magenta_wool"
+			}
+		}
+		{
+			count: 4
+			id: "1160E0BF4128669F"
+			item: {
+				count: 1
+				id: "minecraft:magenta_concrete_powder"
+			}
+		}
+		{
+			count: 4
+			id: "013DD26728153291"
+			item: {
+				count: 1
+				id: "minecraft:magenta_glazed_terracotta"
+			}
+		}
+	]
+	use_title: true
+}

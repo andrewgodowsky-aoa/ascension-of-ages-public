@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "oceansdelight:guardian_soup"
+	}
+	id: "02CA9FFEB305C330"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{
+			count: 4
+			id: "495B816F3B11D33C"
+			item: {
+				count: 1
+				id: "oceansdelight:guardian_soup"
+			}
+		}
+		{
+			count: 4
+			id: "18659877BB691E2E"
+			item: {
+				count: 1
+				id: "minecraft:vine"
+			}
+		}
+		{
+			count: 4
+			id: "4944D83FF391B28C"
+			item: {
+				count: 1
+				id: "minecraft:lily_pad"
+			}
+		}
+		{
+			count: 4
+			id: "3722E18373228FA9"
+			item: {
+				count: 1
+				id: "minecraft:sea_pickle"
+			}
+		}
+		{
+			count: 4
+			id: "37DA36DA153E4700"
+			item: {
+				count: 1
+				id: "minecraft:flower_pot"
+			}
+		}
+	]
+	use_title: true
+}

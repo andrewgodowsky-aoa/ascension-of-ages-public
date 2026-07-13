@@ -1,0 +1,577 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "ir_oritech_foundry"
+	group: "3F77A31B7D30C0AA"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "oritech:foundry_block"
+	}
+	id: "4954120000000000"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B0310A0000000F0"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:machine_core_1"
+			}
+			id: "4954121000000001"
+			rewards: [{
+				id: "78C36D2BA7F06721"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000001"
+				item: { count: 1, id: "oritech:machine_core_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954121000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:basic_generator_block"
+			}
+			id: "4954121000000002"
+			rewards: [{
+				id: "06C68A67A01A6F97"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000002"
+				mode: "ALL"
+				required: 1L
+				targets: ["4954051000000007"]
+				type: "check_quest"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4954121000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:pulverizer_block"
+			}
+			id: "4954121000000003"
+			rewards: [{
+				id: "115926D4C186C21C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000003"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4954121000000003"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:powered_furnace_block"
+			}
+			id: "4954121000000004"
+			rewards: [{
+				id: "70F666C214FDB0AC"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000004"
+				item: { count: 1, id: "oritech:powered_furnace_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4954121000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:machine_core_2"
+			}
+			id: "4954121000000005"
+			rewards: [{
+				id: "35F1E7000C5FE680"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000005"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4954121000000005"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:foundry_block"
+			}
+			id: "4954121000000006"
+			rewards: [{
+				id: "4EB8D9AAA45B85B8"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000006"
+				mode: "ALL"
+				required: 1L
+				targets: ["49540B1000000005"]
+				type: "check_quest"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4954121000000005"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:refinery_block"
+			}
+			id: "4954121000000007"
+			rewards: [{
+				id: "0E6045050F097907"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000007"
+				item: { count: 1, id: "oritech:refinery_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4954121000000006"
+				"4954121000000007"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:machine_frame_block"
+			}
+			id: "4954121000000008"
+			rewards: [{
+				id: "536603EE1A5B6FE2"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000008"
+				item: { count: 1, id: "oritech:machine_frame_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954121000000008"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:machine_core_3"
+			}
+			id: "4954121000000009"
+			rewards: [{
+				id: "1B38D6F185A999D9"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000009"
+				item: { count: 1, id: "oritech:machine_core_3" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954121000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:small_storage_block"
+			}
+			id: "495412100000000A"
+			optional: true
+			rewards: [
+				{
+					id: "3D0E9EFE408E68D4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "283F9E9CA2EBD5A2"
+					table_id: 7364867978423358985L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495412200000000A"
+				item: { count: 1, id: "oritech:small_storage_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4954121000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "oritech:steam_engine_block"
+			}
+			id: "495412100000000B"
+			optional: true
+			rewards: [
+				{
+					id: "66DB854DD64BB235"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "403D5309915A6126"
+					table_id: 7364867978423358985L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495412200000000B"
+				item: { count: 1, id: "oritech:steam_engine_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4954121000000005"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "extendedcrafting:frame"
+			}
+			id: "4954121000000020"
+			rewards: [{
+				id: "25CB42DAB4CE2664"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000020"
+				item: { count: 1, id: "extendedcrafting:frame" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4954121000000020"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "extendedcrafting:basic_table"
+			}
+			id: "4954121000000021"
+			rewards: [{
+				id: "4407047481839722"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000021"
+				item: { count: 1, id: "extendedcrafting:basic_table" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4954121000000021"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "extendedcrafting:handheld_table"
+			}
+			id: "4954121000000022"
+			rewards: [
+				{
+					id: "3AD801C3453DF0EA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "08101D76E4AED7B5"
+					table_id: 7364867978423358985L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954122000000022"
+				item: { count: 1, id: "extendedcrafting:handheld_table" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+	]
+}

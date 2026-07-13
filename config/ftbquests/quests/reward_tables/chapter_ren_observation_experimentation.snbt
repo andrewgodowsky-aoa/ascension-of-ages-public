@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:slime_ball"
+	}
+	id: "1522750E13C3F372"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{
+			count: 4
+			id: "32A116B604452325"
+			item: {
+				count: 1
+				id: "minecraft:spruce_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "6A78CAB9D142CBB9"
+			item: {
+				count: 1
+				id: "minecraft:birch_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "190A1F99C5E1B4A6"
+			item: {
+				count: 1
+				id: "minecraft:jungle_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "1A520F7A8B27DC31"
+			item: {
+				count: 1
+				id: "minecraft:acacia_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "769331AADE83ECE4"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_sapling"
+			}
+		}
+	]
+	use_title: true
+}

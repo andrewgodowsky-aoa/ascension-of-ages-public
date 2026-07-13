@@ -1,0 +1,35 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "age0_primitive",
+  "description": "book.kubejs.minecraft_start_guide.age0_primitive.water_weather_wounds.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "minecraft:water_bucket"
+  },
+  "name": "book.kubejs.minecraft_start_guide.age0_primitive.water_weather_wounds.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.kubejs.minecraft_start_guide.age0_primitive.water_weather_wounds.page1.text",
+      "title": "book.kubejs.minecraft_start_guide.age0_primitive.water_weather_wounds.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.kubejs.minecraft_start_guide.age0_primitive.water_weather_wounds.page2.text",
+      "title": "book.kubejs.minecraft_start_guide.age0_primitive.water_weather_wounds.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 2,
+  "y": 0
+}

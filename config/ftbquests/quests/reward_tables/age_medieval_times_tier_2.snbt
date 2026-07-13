@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:iron_ingot"
+	}
+	id: "4151ADF6FCE5FC04"
+	loot_size: 1
+	order_index: 55
+	rewards: [
+		{
+			count: 16
+			id: "4DB502267F53FD1D"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "580048CC305C7924"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "4D9B99033DE03EDF"
+			item: {
+				count: 1
+				id: "alloyed:bronze_ingot"
+			}
+		}
+		{ id: "47442C731A3F31FF", item: { count: 1, id: "create:extendo_grip" } }
+		{
+			count: 16
+			id: "1B3A090652CD9D5C"
+			item: {
+				count: 1
+				id: "create:cardboard"
+			}
+		}
+		{ id: "30FC31319F27CFAB", item: { count: 1, id: "create:crafting_blueprint" } }
+		{
+			count: 16
+			id: "5D77C8983F3DAAFE"
+			item: {
+				count: 1
+				id: "overgeared:steel_arrow"
+			}
+		}
+		{ id: "7F12810CC1E98951", item: { count: 1, id: "productivemetalworks:gear_cast" } }
+		{ id: "13EC7AE9BA2333BC", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" } }
+		{ id: "6FF87CF216059651", item: { count: 1, id: "minecraft:spyglass" } }
+		{ id: "1332D7573C57686A", item: { count: 1, id: "alexsmobs:falconry_glove" } }
+		{ id: "44C830F7F93D4557", item: { count: 1, id: "aquaculture:gold_fishing_rod" } }
+		{ id: "6AA60EF3A18C70E3", item: { count: 1, id: "mowziesmobs:music_disc_petiole" } }
+	]
+	use_title: true
+}

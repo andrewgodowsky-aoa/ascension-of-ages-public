@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "minecraft:brown_dye"
+	}
+	id: "73250F3E34B5F20A"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ id: "0E34E4E3470E5B2A", item: { count: 1, id: "minecraft:brown_dye" } }
+		{ id: "2B27C75FBF875D78", item: { count: 1, id: "minecraft:brown_candle" } }
+		{
+			count: 4
+			id: "06282D440B182338"
+			item: {
+				count: 1
+				id: "minecraft:brown_wool"
+			}
+		}
+		{
+			count: 4
+			id: "5D532CB0F7A0C0F5"
+			item: {
+				count: 1
+				id: "minecraft:brown_concrete_powder"
+			}
+		}
+		{
+			count: 4
+			id: "4384C173BB9BA55D"
+			item: {
+				count: 1
+				id: "minecraft:brown_glazed_terracotta"
+			}
+		}
+	]
+	use_title: true
+}

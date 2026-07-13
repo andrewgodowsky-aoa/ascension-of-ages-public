@@ -1,0 +1,35 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "food_farming_relief",
+  "description": "book.kubejs.minecraft_start_guide.food_farming_relief.nutrition.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "farmersdelight:cutting_board"
+  },
+  "name": "book.kubejs.minecraft_start_guide.food_farming_relief.nutrition.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.kubejs.minecraft_start_guide.food_farming_relief.nutrition.page1.text",
+      "title": "book.kubejs.minecraft_start_guide.food_farming_relief.nutrition.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.kubejs.minecraft_start_guide.food_farming_relief.nutrition.page2.text",
+      "title": "book.kubejs.minecraft_start_guide.food_farming_relief.nutrition.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

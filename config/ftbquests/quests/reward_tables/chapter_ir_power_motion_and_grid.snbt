@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "minecraft:red_dye"
+	}
+	id: "1A610C1C093132CE"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ id: "40AA56B4EABD9825", item: { count: 1, id: "minecraft:red_dye" } }
+		{ id: "3D25064793C7BDF0", item: { count: 1, id: "minecraft:red_candle" } }
+		{
+			count: 4
+			id: "52D5A0FD02B4D812"
+			item: {
+				count: 1
+				id: "minecraft:red_wool"
+			}
+		}
+		{
+			count: 4
+			id: "6E358D76FCFBFD41"
+			item: {
+				count: 1
+				id: "minecraft:red_concrete_powder"
+			}
+		}
+		{
+			count: 4
+			id: "331DB69D781AA253"
+			item: {
+				count: 1
+				id: "minecraft:red_glazed_terracotta"
+			}
+		}
+	]
+	use_title: true
+}

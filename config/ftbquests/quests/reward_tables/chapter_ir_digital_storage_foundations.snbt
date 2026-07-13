@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:white_stained_glass"
+	}
+	id: "0985E468113C84C9"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			count: 4
+			id: "477CAA861FCC927C"
+			item: {
+				count: 1
+				id: "minecraft:white_stained_glass"
+			}
+		}
+		{
+			count: 4
+			id: "1BDD784BE19360DB"
+			item: {
+				count: 1
+				id: "minecraft:black_stained_glass"
+			}
+		}
+		{
+			count: 4
+			id: "71451E48ED9B80D0"
+			item: {
+				count: 1
+				id: "minecraft:white_stained_glass_pane"
+			}
+		}
+		{
+			count: 4
+			id: "5174E19BBDF873F9"
+			item: {
+				count: 1
+				id: "minecraft:black_stained_glass_pane"
+			}
+		}
+		{
+			count: 4
+			id: "383D8294BFF75063"
+			item: {
+				count: 1
+				id: "minecraft:tinted_glass"
+			}
+		}
+	]
+	use_title: true
+}

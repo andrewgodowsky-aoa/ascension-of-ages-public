@@ -1,0 +1,1723 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "at2_the_periodic_table"
+	group: "7D28E4AEBC440F10"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mekanism:chemical_dissolution_chamber"
+	}
+	id: "5054010000000000"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E44010000010004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:chemical_oxidizer"
+			}
+			id: "5054010000010000"
+			rewards: [{
+				id: "5054010000030000"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000010001"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5054010000010000"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:chemical_dissolution_chamber"
+			}
+			id: "5054011000000100"
+			rewards: [{
+				id: "5054013000020001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000020001"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5054011000000100"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			id: "5054011000000101"
+			rewards: [{
+				id: "5054013000030001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000030001"
+				item: { count: 1, id: "mekanism:chemical_washer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5054011000000101"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:chemical_crystallizer"
+			}
+			id: "5054011000000102"
+			rewards: [
+				{
+					id: "5054013000040001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "414B68ABE9683B3F"
+					table_id: 7771419799922523686L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000040001"
+				item: { count: 1, id: "mekanism:chemical_crystallizer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5054010000010000"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:isotopic_centrifuge"
+			}
+			id: "5054011000000103"
+			rewards: [{
+				id: "5054013000050001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000050001"
+				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5054011000000103"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:solar_neutron_activator"
+			}
+			id: "5054011000000104"
+			rewards: [{
+				id: "5054013000060001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000060001"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5054010000010000"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:digital_miner"
+			}
+			id: "5054010000010001"
+			rewards: [{
+				id: "5054010000030002"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054010000020006"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5054010000010000"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:elite_control_circuit"
+			}
+			id: "5054010000010002"
+			rewards: [{
+				id: "5054010000030004"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000080001"
+					item: { count: 1, id: "mekanism:elite_control_circuit" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000080002"
+					item: { count: 1, id: "mekanism:elite_energy_cube" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5054010000010002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:ultimate_energy_cube"
+			}
+			id: "5054011000000105"
+			rewards: [
+				{
+					id: "5054013000090001"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7BFA41B7082D11AB"
+					table_id: 7771419799922523686L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000090001"
+				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5054010000010001"
+				"5054010000010002"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:isotopic_centrifuge"
+			}
+			id: "5054010000010003"
+			rewards: [{
+				id: "5054010000030006"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "505401000002000C"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5054011000000105"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "electrodynamics:circuitultimate"
+			}
+			id: "5054011000000106"
+			optional: true
+			rewards: [{
+				id: "50540130000B0001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120000B0001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(electrodynamics:circuitelite),item(electrodynamics:circuitultimate),item(evolvedmekanism:dense_control_circuit)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5054011000000106"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "chemicalscience:circuitorganic"
+			}
+			id: "5054011000000107"
+			optional: true
+			rewards: [
+				{
+					id: "50540130000C0001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12678EAEF133D339"
+					item: {
+						count: 1
+						id: "chemicalscience:circuitorganic"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120000C0001"
+				item: { count: 1, id: "chemicalscience:circuitorganic" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5054010000010000"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "electrodynamics:chemicalcrystallizer"
+			}
+			id: "5054011000000108"
+			rewards: [
+				{
+					id: "50540130000D0001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "730910CEF1500BB0"
+					table_id: 7771419799922523686L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120000D0001"
+				item: { count: 1, id: "electrodynamics:chemicalcrystallizer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5054011000000108"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "electrodynamics:electrolosischamber"
+			}
+			id: "5054011000000109"
+			rewards: [{
+				id: "50540130000E0001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120000E0001"
+				item: { count: 1, id: "electrodynamics:electrolosischamber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5054011000000108"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "electrodynamics:mineralwasher"
+			}
+			id: "505401100000010A"
+			rewards: [{
+				id: "50540130000F0001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120000F0001"
+				item: { count: 1, id: "electrodynamics:mineralwasher" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5054011000000108"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "electrodynamics:energizedalloyer"
+			}
+			id: "505401100000010B"
+			optional: true
+			rewards: [{
+				id: "5054013000100001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000100001"
+				item: { count: 1, id: "electrodynamics:energizedalloyer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["505401100000010B"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "electrodynamics:reinforcedalloyer"
+			}
+			id: "505401100000010C"
+			optional: true
+			rewards: [
+				{
+					id: "5054013000110001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0BDFF16E50BC8EB4"
+					table_id: 7771419799922523686L
+					type: "loot"
+				}
+				{
+					id: "095314EEBF0E0E2D"
+					item: {
+						count: 1
+						id: "electrodynamics:reinforcedalloyer"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000110001"
+				item: { count: 1, id: "electrodynamics:reinforcedalloyer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5054011000000108"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "chemicalscience:block_element_u"
+			}
+			id: "505401100000010D"
+			optional: true
+			rewards: [{
+				id: "5054013000120005"
+				type: "xp"
+				xp: 150
+			}]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000120001"
+					item: { count: 1, id: "chemicalscience:block_element_u" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000120002"
+					item: { count: 1, id: "chemicalscience:block_element_pu" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000120003"
+					item: { count: 1, id: "chemicalscience:block_element_th" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["505401100000010D"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "chemicalscience:platinum_thorium_catalyst"
+			}
+			id: "505401100000010E"
+			optional: true
+			rewards: [
+				{
+					id: "5054013000130002"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12AEB6AC18AAD8ED"
+					item: {
+						count: 1
+						id: "chemicalscience:dust_thorium"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000130001"
+				item: { count: 1, id: "chemicalscience:platinum_thorium_catalyst" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["505401100000010D"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "chemicalscience:ore_uranium_moon"
+			}
+			id: "505401100000010F"
+			optional: true
+			rewards: [
+				{
+					id: "5054013000140001"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "50FB74586EE5503A"
+					item: {
+						count: 1
+						id: "chemicalscience:ore_uranium_moon"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000140001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(chemicalscience:ore_uranium_moon),item(chemicalscience:ore_uranium_mars),item(chemicalscience:ore_uranium_mercury),item(chemicalscience:ore_uranium_venus),item(chemicalscience:ore_thorium_moon),item(chemicalscience:ore_thorium_mars),item(chemicalscience:ore_thorium_mercury),item(chemicalscience:ore_thorium_venus)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5054010000010002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:advanced_universal_cable"
+			}
+			id: "5054011000000110"
+			rewards: [{
+				id: "5054013000150001"
+				type: "xp"
+				xp: 50
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000150001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(mekanism:advanced_universal_cable),item(mekanism:advanced_mechanical_pipe),item(mekanism:advanced_pressurized_tube),item(mekanism:advanced_logistical_transporter),item(mekanism:advanced_thermodynamic_conductor)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5054011000000110"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:elite_universal_cable"
+			}
+			id: "5054011000000111"
+			rewards: [
+				{
+					id: "5054013000160001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "73328F1BCC19BFF1"
+					table_id: 7771419799922523686L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000160001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(mekanism:elite_universal_cable),item(mekanism:elite_mechanical_pipe),item(mekanism:elite_pressurized_tube),item(mekanism:elite_logistical_transporter),item(mekanism:elite_thermodynamic_conductor)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5054011000000111"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:ultimate_universal_cable"
+			}
+			id: "5054011000000112"
+			optional: true
+			rewards: [{
+				id: "5054013000170001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000170001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(mekanism:ultimate_universal_cable),item(mekanism:ultimate_mechanical_pipe),item(mekanism:ultimate_pressurized_tube),item(mekanism:ultimate_logistical_transporter),item(mekanism:ultimate_thermodynamic_conductor)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5054010000010002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:advanced_bin"
+			}
+			id: "5054011000000113"
+			rewards: [{
+				id: "5054013000180001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000180001"
+					item: { count: 1, id: "mekanism:advanced_bin" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000180002"
+					item: { count: 1, id: "mekanism:advanced_chemical_tank" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000180003"
+					item: { count: 1, id: "mekanism:advanced_fluid_tank" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000180004"
+					item: { count: 1, id: "mekanism:advanced_energy_cube" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5054011000000113"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:elite_bin"
+			}
+			id: "5054011000000114"
+			optional: true
+			rewards: [{
+				id: "5054013000190001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000190001"
+					item: { count: 1, id: "mekanism:elite_bin" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000190002"
+					item: { count: 1, id: "mekanism:elite_chemical_tank" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000190003"
+					item: { count: 1, id: "mekanism:elite_fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5054011000000114"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:ultimate_bin"
+			}
+			id: "5054011000000115"
+			optional: true
+			rewards: [
+				{
+					id: "50540130001A0001"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "467EEF6A53C75A1C"
+					table_id: 7771419799922523686L
+					type: "loot"
+				}
+				{
+					id: "1257249A4279BA6F"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_bin"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "50540120001A0001"
+					item: { count: 1, id: "mekanism:ultimate_bin" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "50540120001A0002"
+					item: { count: 1, id: "mekanism:ultimate_chemical_tank" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "50540120001A0003"
+					item: { count: 1, id: "mekanism:ultimate_fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5054011000000113"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekmm:ultimate_max_chemical_tank"
+			}
+			id: "5054011000000116"
+			optional: true
+			rewards: [{
+				id: "50540130001B0001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120001B0001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(mekmm:basic_mid_chemical_tank),item(mekmm:basic_max_chemical_tank),item(mekmm:advanced_mid_chemical_tank),item(mekmm:advanced_max_chemical_tank),item(mekmm:elite_mid_chemical_tank),item(mekmm:elite_max_chemical_tank),item(mekmm:ultimate_mid_chemical_tank),item(mekmm:ultimate_max_chemical_tank)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5054010000010002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:induction_casing"
+			}
+			id: "5054011000000117"
+			rewards: [{
+				id: "50540130001C0001"
+				type: "xp"
+				xp: 150
+			}]
+			tags: ["aoa_main"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "50540120001C0001"
+					item: { count: 1, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "50540120001C0002"
+					item: { count: 1, id: "mekanism:induction_port" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "50540120001C0003"
+					item: { count: 1, id: "mekanism:basic_induction_cell" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "50540120001C0004"
+					item: { count: 1, id: "mekanism:basic_induction_provider" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5054011000000117"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:ultimate_induction_cell"
+			}
+			id: "5054011000000118"
+			optional: true
+			rewards: [{
+				id: "50540130001D0001"
+				type: "xp"
+				xp: 200
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120001D0001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(mekanism:advanced_induction_cell),item(mekanism:advanced_induction_provider),item(mekanism:elite_induction_cell),item(mekanism:elite_induction_provider),item(mekanism:ultimate_induction_cell),item(mekanism:ultimate_induction_provider),item(evolvedmekanism:dense_induction_cell),item(evolvedmekanism:dense_induction_provider),item(evolvedmekanism:overclocked_induction_cell),item(evolvedmekanism:overclocked_induction_provider)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5054010000010003"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:quantum_entangloporter"
+			}
+			id: "5054011000000119"
+			optional: true
+			rewards: [{
+				id: "50540130001E0001"
+				type: "xp"
+				xp: 150
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120001E0001"
+				item: { count: 1, id: "mekanism:quantum_entangloporter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5054010000010003"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:dimensional_stabilizer"
+			}
+			id: "505401100000011A"
+			optional: true
+			rewards: [
+				{
+					id: "50540130001F0001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "795C4B4436C23AC6"
+					table_id: 7771419799922523686L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "50540120001F0001"
+				item: { count: 1, id: "mekanism:dimensional_stabilizer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5054011000000117"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism_lasers:elite_laser"
+			}
+			id: "505401100000011B"
+			optional: true
+			rewards: [{
+				id: "5054013000200001"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000200001"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(mekanism_lasers:basic_laser),item(mekanism_lasers:advanced_laser),item(mekanism_lasers:elite_laser),item(mekanism_lasers:ultimate_laser),item(mekanism_lasers:basic_toggleable_laser),item(mekanism_lasers:advanced_toggleable_laser),item(mekanism_lasers:elite_toggleable_laser),item(mekanism_lasers:ultimate_toggleable_laser)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["505401100000011B"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism_lasers:laser_splitter"
+			}
+			id: "505401100000011C"
+			optional: true
+			rewards: [
+				{
+					id: "5054013000210001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22E56D94D9F9C12B"
+					item: {
+						count: 1
+						id: "mekanism_lasers:laser_splitter"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000210001"
+					item: { count: 1, id: "mekanism_lasers:laser_splitter" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000210002"
+					item: { count: 1, id: "mekanism_lasers:laser_stopper" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["505401100000011B"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism_lasers:energy_storage_casing"
+			}
+			id: "505401100000011D"
+			optional: true
+			rewards: [
+				{
+					id: "5054013000220001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6ACA131B2C87FBA1"
+					item: {
+						count: 1
+						id: "mekanism_lasers:energy_storage_casing"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000220001"
+					item: { count: 1, id: "mekanism_lasers:energy_storage_casing" }
+					type: "item"
+				}
+				{
+					PlayerSpells: {
+						check: 0b
+						mode: "ALL"
+						required: 0L
+						spells: [ ]
+					}
+					SkillsLevel: {
+						category: ""
+						check: 0b
+						comparison: "GREATER_OR_EQUAL"
+						first: 10
+						mode: "TOTAL_LEVEL"
+						second: 20
+					}
+					id: "5054012000220002"
+					item: { count: 1, id: "mekanism_lasers:energy_storage_cell" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["505401100000011B"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism_lasers:ore_generator"
+			}
+			id: "505401100000011E"
+			optional: true
+			rewards: [
+				{
+					id: "5054013000230001"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "0D611F589A84FED6"
+					item: {
+						count: 1
+						id: "mekanism_lasers:ore_generator"
+					}
+					type: "item"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "5054012000230001"
+				item: { count: 1, id: "mekanism_lasers:ore_generator" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+	]
+}

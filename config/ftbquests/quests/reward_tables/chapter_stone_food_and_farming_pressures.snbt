@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "farmersdelight:honey_glazed_ham"
+	}
+	id: "4B729DECACA2E741"
+	loot_size: 1
+	order_index: 51
+	rewards: [
+		{
+			count: 4
+			id: "5BE8EBBB9F5EA30D"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_glazed_ham"
+			}
+		}
+		{
+			count: 4
+			id: "5C4C657F6C0034FF"
+			item: {
+				count: 1
+				id: "aquaculture:worm"
+			}
+		}
+		{
+			count: 4
+			id: "719262266F65072B"
+			item: {
+				count: 1
+				id: "comforts:sleeping_bag_red"
+			}
+		}
+		{
+			count: 4
+			id: "2818762F062F343E"
+			item: {
+				count: 1
+				id: "minecraft:apple"
+			}
+		}
+		{
+			count: 4
+			id: "0E0AC27715ADA048"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+		}
+	]
+	use_title: true
+}

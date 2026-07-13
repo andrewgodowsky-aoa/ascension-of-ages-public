@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:raw_iron"
+	}
+	id: "7C45D73F59AFB8D9"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			count: 4
+			id: "475623A92D35B19F"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+		}
+		{
+			count: 4
+			id: "2682C305ED11AE8A"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+		}
+		{
+			count: 4
+			id: "7584A24073F37A53"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+		}
+		{
+			count: 4
+			id: "474771EE015150B3"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron_block"
+			}
+		}
+		{
+			count: 4
+			id: "18BEA87A50F37AAF"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper_block"
+			}
+		}
+	]
+	use_title: true
+}

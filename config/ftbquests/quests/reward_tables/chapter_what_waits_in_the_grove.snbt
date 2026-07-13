@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:glass_bottle"
+	}
+	id: "0BB2174213532667"
+	loot_size: 1
+	order_index: 53
+	rewards: [
+		{
+			count: 4
+			id: "26E76403B1E0160D"
+			item: {
+				count: 1
+				id: "minecraft:glass_bottle"
+			}
+		}
+		{
+			count: 4
+			id: "5BCEEB896478F84F"
+			item: {
+				count: 1
+				id: "minecraft:water_bucket"
+			}
+		}
+		{
+			count: 4
+			id: "300192447F577156"
+			item: {
+				count: 1
+				id: "minecraft:milk_bucket"
+			}
+		}
+		{
+			count: 4
+			id: "5FF3DBDFE54504E1"
+			item: {
+				count: 1
+				id: "minecraft:ink_sac"
+			}
+		}
+		{
+			count: 4
+			id: "55B8668AD8B72228"
+			item: {
+				count: 1
+				id: "minecraft:glow_ink_sac"
+			}
+		}
+	]
+	use_title: true
+}

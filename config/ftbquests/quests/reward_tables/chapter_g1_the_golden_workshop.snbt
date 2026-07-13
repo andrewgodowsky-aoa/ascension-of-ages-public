@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "minecraft:yellow_dye"
+	}
+	id: "0F2F999EFE1C5891"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ id: "62B17E3556698A9C", item: { count: 1, id: "minecraft:yellow_dye" } }
+		{ id: "3AAF7000AEEF6162", item: { count: 1, id: "minecraft:yellow_candle" } }
+		{
+			count: 4
+			id: "128FC563EAAAA08D"
+			item: {
+				count: 1
+				id: "minecraft:yellow_wool"
+			}
+		}
+		{
+			count: 4
+			id: "3BB62E49E3570279"
+			item: {
+				count: 1
+				id: "minecraft:yellow_concrete_powder"
+			}
+		}
+		{
+			count: 4
+			id: "65DA611063B592AF"
+			item: {
+				count: 1
+				id: "minecraft:yellow_glazed_terracotta"
+			}
+		}
+	]
+	use_title: true
+}

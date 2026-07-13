@@ -1,0 +1,571 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "ir_mekanism_ore_works"
+	group: "3F77A31B7D30C0AA"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mekanism:enrichment_chamber"
+	}
+	id: "4954110000000000"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B0310A0000000F0"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:enrichment_chamber"
+			}
+			id: "4954111000000001"
+			rewards: [{
+				id: "4954113000000001"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000001"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954111000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:crusher"
+			}
+			id: "4954111000000002"
+			rewards: [{
+				id: "4954113000000002"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000002"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954111000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:energized_smelter"
+			}
+			id: "4954111000000003"
+			rewards: [{
+				id: "4954113000000003"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000003"
+				item: { count: 1, id: "mekanism:energized_smelter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4954111000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:osmium_compressor"
+			}
+			id: "4954111000000004"
+			rewards: [{
+				id: "4954113000000004"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000004"
+				item: { count: 1, id: "mekanism:osmium_compressor" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4954111000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:purification_chamber"
+			}
+			id: "4954111000000005"
+			rewards: [{
+				id: "4954113000000005"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000005"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954111000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			id: "4954111000000006"
+			rewards: [{
+				id: "4954113000000006"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000006"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4954111000000005"
+				"4954111000000006"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:chemical_injection_chamber"
+			}
+			id: "4954111000000007"
+			rewards: [{
+				id: "4954113000000007"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000007"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954111000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:chemical_infuser"
+			}
+			id: "4954111000000008"
+			rewards: [
+				{
+					id: "4954113000000008"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "607DD6236F6C29C1"
+					table_id: 8954800101183699161L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000008"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4954111000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:pressurized_reaction_chamber"
+			}
+			id: "4954111000000009"
+			rewards: [{
+				id: "4954113000000009"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000009"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954111000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "495411100000000A"
+			rewards: [
+				{
+					id: "495411300000000A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7DAC561C604ECA5F"
+					table_id: 8954800101183699161L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495411200000000A"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4954111000000009"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:thermal_evaporation_controller"
+			}
+			id: "495411100000000B"
+			rewards: [
+				{
+					id: "495411300000000B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5FC66FE713C978A9"
+					table_id: 8954800101183699161L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495411200000000B"
+				item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954111000000003"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:basic_smelting_factory"
+			}
+			id: "4954111000000010"
+			rewards: [{
+				id: "4954113000000010"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000010"
+				item: { count: 1, id: "mekanism:basic_smelting_factory" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4954111000000010"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:basic_enriching_factory"
+			}
+			id: "4954111000000011"
+			rewards: [{
+				id: "4954113000000011"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000011"
+				item: { count: 1, id: "mekanism:basic_enriching_factory" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4954111000000011"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:basic_crushing_factory"
+			}
+			id: "4954111000000012"
+			rewards: [{
+				id: "4954113000000012"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954112000000012"
+				item: { count: 1, id: "mekanism:basic_crushing_factory" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+	]
+}

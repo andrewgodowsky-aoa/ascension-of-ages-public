@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:magma_block"
+	}
+	id: "66354467D792D609"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			count: 4
+			id: "6D0BFCA70F6F36A6"
+			item: {
+				count: 1
+				id: "minecraft:magma_block"
+			}
+		}
+		{
+			count: 4
+			id: "7333E5CFF2093A50"
+			item: {
+				count: 1
+				id: "minecraft:dripstone_block"
+			}
+		}
+		{
+			count: 4
+			id: "52239B7288D5A254"
+			item: {
+				count: 1
+				id: "minecraft:pointed_dripstone"
+			}
+		}
+		{
+			count: 4
+			id: "5853FD602B666DF9"
+			item: {
+				count: 1
+				id: "minecraft:lava_bucket"
+			}
+		}
+		{
+			count: 4
+			id: "453D2C6A2DE97C0B"
+			item: {
+				count: 1
+				id: "minecraft:fire_charge"
+			}
+		}
+	]
+	use_title: true
+}

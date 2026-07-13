@@ -1,0 +1,23 @@
+{
+	icon: {
+		id: "minecraft:gray_dye"
+	}
+	id: "7A5400CE15203103"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ id: "5DBA14ACBC112568", item: { count: 1, id: "minecraft:gray_dye" } }
+		{ id: "48BB250F43A79CA7", item: { count: 1, id: "minecraft:light_gray_dye" } }
+		{ id: "4CB192B6A420D43B", item: { count: 1, id: "minecraft:gray_candle" } }
+		{ id: "60680128D947216B", item: { count: 1, id: "minecraft:light_gray_candle" } }
+		{
+			count: 4
+			id: "3BEEA062736DF2CB"
+			item: {
+				count: 1
+				id: "minecraft:gray_wool"
+			}
+		}
+	]
+	use_title: true
+}

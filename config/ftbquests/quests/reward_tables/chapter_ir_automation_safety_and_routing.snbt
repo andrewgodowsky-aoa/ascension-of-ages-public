@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:rail"
+	}
+	id: "37FB2120D037699A"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			count: 4
+			id: "5BB4A17B79353F7C"
+			item: {
+				count: 1
+				id: "minecraft:rail"
+			}
+		}
+		{
+			count: 4
+			id: "254F0BD6C5D31FAC"
+			item: {
+				count: 1
+				id: "minecraft:powered_rail"
+			}
+		}
+		{
+			count: 4
+			id: "0E75AE827AE14559"
+			item: {
+				count: 1
+				id: "minecraft:detector_rail"
+			}
+		}
+		{
+			count: 4
+			id: "12A42C2524507859"
+			item: {
+				count: 1
+				id: "minecraft:activator_rail"
+			}
+		}
+		{
+			count: 4
+			id: "0A200F94C1592C1C"
+			item: {
+				count: 1
+				id: "minecraft:minecart"
+			}
+		}
+	]
+	use_title: true
+}

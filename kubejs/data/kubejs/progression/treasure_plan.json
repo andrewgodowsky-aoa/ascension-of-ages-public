@@ -1,0 +1,58 @@
+{
+  "stages": {
+    "age0": "age0",
+    "age0_treasure_t2": "age0_treasure_t2",
+    "age1": "age1",
+    "age1_treasure_t3": "age1_treasure_t3",
+    "age2": "age2"
+  },
+  "tiers": {
+    "tier1": {
+      "name": "Common Locked Chests",
+      "intendedAges": ["age0", "age1"],
+      "clavisBaseline": {
+        "unlocksAfterLosing": true,
+        "qualityPenaltyPerHit": 0.25,
+        "startingQuality": 1.35
+      },
+      "structureFamilies": ["moogs", "yungs", "small_ruins"]
+    },
+    "tier2": {
+      "name": "Important Locked Chests",
+      "unlockStage": "age0_treasure_t2",
+      "intendedAges": ["age0", "age1", "age2"],
+      "structureFamilies": ["guarded_ruins", "first_dungeons", "better_structures"]
+    },
+    "tier3": {
+      "name": "Elite Vault Chests",
+      "unlockStage": "age1_treasure_t3",
+      "intendedAges": ["age1", "age2"],
+      "structureFamilies": ["boss_rooms", "rare_dungeons", "elite_vaults"]
+    },
+    "tier4": {
+      "name": "Ultimate Jackpot Chests",
+      "unlockStage": "age6",
+      "intendedAges": ["age6", "age7"],
+      "structureFamilies": ["endgame_vaults", "prestige_treasure", "final_boss_rooms"]
+    }
+  },
+  "lootRules": {
+    "age0Forbidden": [
+      "raw_ore",
+      "ore_block",
+      "meaningful_ingots",
+      "progression_skipping_nuggets",
+      "machine_ready_components"
+    ],
+    "age1Forbidden": [
+      "bulk_metals",
+      "major_armor_spikes",
+      "machine_complete_shortcuts",
+      "next_age_power_ceiling"
+    ]
+  },
+  "rewardPatterns": {
+    "tier2UnlockRewards": ["explorers_compass", "structure_clue", "token", "map_hint"],
+    "tier3UnlockRewards": ["rare_map_hint", "vault_rumor", "elite_token", "branch_stage_unlock"]
+  }
+}

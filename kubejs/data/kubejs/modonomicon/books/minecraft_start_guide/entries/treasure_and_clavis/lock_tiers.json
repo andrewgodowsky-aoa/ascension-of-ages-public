@@ -1,0 +1,35 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "treasure_and_clavis",
+  "description": "book.kubejs.minecraft_start_guide.treasure_and_clavis.lock_tiers.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "minecraft:tripwire_hook"
+  },
+  "name": "book.kubejs.minecraft_start_guide.treasure_and_clavis.lock_tiers.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.kubejs.minecraft_start_guide.treasure_and_clavis.lock_tiers.page1.text",
+      "title": "book.kubejs.minecraft_start_guide.treasure_and_clavis.lock_tiers.page1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": { "type": "modonomicon:none" },
+      "show_title_separator": true,
+      "text": "book.kubejs.minecraft_start_guide.treasure_and_clavis.lock_tiers.page2.text",
+      "title": "book.kubejs.minecraft_start_guide.treasure_and_clavis.lock_tiers.page2.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

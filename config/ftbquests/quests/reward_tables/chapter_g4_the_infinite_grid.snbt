@@ -1,0 +1,37 @@
+{
+	icon: {
+		id: "minecraft:cyan_dye"
+	}
+	id: "1DBCEF052978948F"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ id: "0E8E6A95581C103D", item: { count: 1, id: "minecraft:cyan_dye" } }
+		{ id: "1DAA54BB06E6144E", item: { count: 1, id: "minecraft:cyan_candle" } }
+		{
+			count: 4
+			id: "2D2953A8435A675E"
+			item: {
+				count: 1
+				id: "minecraft:cyan_wool"
+			}
+		}
+		{
+			count: 4
+			id: "395F8ED8A72C70D1"
+			item: {
+				count: 1
+				id: "minecraft:cyan_concrete_powder"
+			}
+		}
+		{
+			count: 4
+			id: "5C704361729CA3B5"
+			item: {
+				count: 1
+				id: "minecraft:cyan_glazed_terracotta"
+			}
+		}
+	]
+	use_title: true
+}

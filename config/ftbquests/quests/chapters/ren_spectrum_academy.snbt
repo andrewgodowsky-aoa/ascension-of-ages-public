@@ -1,0 +1,454 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "ren_spectrum_academy"
+	group: "0B038EB15EBBFD95"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "spectrum:pedestal_all_basic"
+	}
+	id: "0B0310C000000000"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D7E8F901A2B1054"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "spectrum:pigment_palette"
+			}
+			id: "0B0310C000000001"
+			rewards: [
+				{
+					id: "0B0310C030000001"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1454DFB2802BC271"
+					table_id: 2327450558682828981L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000001"
+				item: { count: 1, id: "spectrum:pigment_palette" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0310C000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310C000000002"
+			rewards: [{
+				id: "0B0310C030000002"
+				type: "xp"
+				xp: 20
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000002"
+				item: { count: 1, id: "spectrum:color_picker" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0310C000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310C000000003"
+			rewards: [{
+				id: "0B0310C030000003"
+				type: "xp"
+				xp: 100
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000003"
+				item: { count: 1, id: "spectrum:titration_barrel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0310C000000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310C000000010"
+			rewards: [{
+				id: "0B0310C030000010"
+				type: "xp"
+				xp: 20
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000010"
+				item: { count: 1, id: "spectrum:pedestal_all_basic" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B0310C000000010"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "spectrum:pedestal_basic_topaz"
+			}
+			id: "0B0310C000000011"
+			rewards: [{
+				id: "0B0310C030000011"
+				type: "xp"
+				xp: 20
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000011"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(spectrum:pedestal_basic_amethyst),item(spectrum:pedestal_basic_citrine),item(spectrum:pedestal_basic_topaz)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B0310C000000011"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310C000000012"
+			rewards: [{
+				id: "0B0310C030000012"
+				type: "xp"
+				xp: 25
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000012"
+				item: { count: 1, id: "spectrum:pedestal_moonstone" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B0310C000000012"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310C000000013"
+			rewards: [{
+				id: "0B0310C030000013"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000013"
+				item: { count: 1, id: "spectrum:pedestal_onyx" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B0310C000000003"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "spectrum:provider_node"
+			}
+			id: "0B0310C000000020"
+			rewards: [{
+				id: "0B0310C030000020"
+				type: "xp"
+				xp: 25
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000020"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(spectrum:connection_node),item(spectrum:gather_node),item(spectrum:provider_node),item(spectrum:sender_node),item(spectrum:storage_node)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B0310C000000020"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310C000000021"
+			rewards: [{
+				id: "0B0310C030000021"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000021"
+				item: { count: 1, id: "spectrum:fusion_shrine_calcite" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0B0310C000000013"
+				"0B0310C000000021"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "spectrum:spirit_instiller"
+			}
+			id: "0B0310C000000022"
+			rewards: [{
+				id: "0B0310C030000022"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				advancement: "spectrum:midgame/build_spirit_instiller_structure"
+				criterion: ""
+				id: "0B0310C020000022"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0310C000000022"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310C000000023"
+			optional: true
+			rewards: [
+				{
+					id: "0B0310C030000023"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "63DBC1B19EF08146"
+					table_id: 2327450558682828981L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000023"
+				item: { count: 1, id: "spectrum:particle_spawner" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B0310C000000022"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B0310C000000024"
+			optional: true
+			rewards: [
+				{
+					id: "0B0310C030000024"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "04219912D792624A"
+					table_id: 2327450558682828981L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B0310C020000024"
+				item: { count: 1, id: "spectrum:ink_assortment" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+	]
+}

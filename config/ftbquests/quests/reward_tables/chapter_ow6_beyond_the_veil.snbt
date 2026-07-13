@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:chorus_fruit"
+	}
+	id: "6891AA8548F87A3C"
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{
+			count: 8
+			id: "6891AA8548F87A01"
+			item: {
+				count: 1
+				id: "minecraft:chorus_fruit"
+			}
+		}
+		{
+			count: 4
+			id: "6891AA8548F87A02"
+			item: {
+				count: 1
+				id: "minecraft:music_disc_cat"
+			}
+		}
+		{
+			count: 8
+			id: "6891AA8548F87A03"
+			item: {
+				count: 1
+				id: "minecraft:rabbit_foot"
+			}
+		}
+		{
+			count: 8
+			id: "6891AA8548F87A04"
+			item: {
+				count: 1
+				id: "minecraft:suspicious_stew"
+			}
+		}
+		{
+			count: 8
+			id: "6891AA8548F87A05"
+			item: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+		}
+		{
+			count: 4
+			id: "6891AA8548F87A06"
+			item: {
+				count: 1
+				id: "minecraft:music_disc_wait"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:book"
+	}
+	id: "309060B5D0923A3D"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			count: 4
+			id: "1B64BC2CACA2D61E"
+			item: {
+				count: 1
+				id: "minecraft:book"
+			}
+		}
+		{
+			count: 4
+			id: "0B29E343F7D41278"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+		}
+		{
+			count: 4
+			id: "36674F71EBB1EA29"
+			item: {
+				count: 1
+				id: "minecraft:brick"
+			}
+		}
+		{
+			count: 4
+			id: "459441A8D27F1863"
+			item: {
+				count: 1
+				id: "minecraft:stone"
+			}
+		}
+		{
+			count: 4
+			id: "5A6EC2DE70462F5A"
+			item: {
+				count: 1
+				id: "minecraft:cobblestone"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "ren_mahou_tsukai"
+	group: "0B038EB15EBBFD95"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mahoutsukai:mahoujin_projector"
+	}
+	id: "4D41487500000000"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D7E8F901A2B1054"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "mahoutsukai:guidebook"
+			}
+			id: "4D41487500000001"
+			optional: true
+			rewards: [{
+				id: "4D41487530000001"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.5d
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4D41487520000001"
+				item: { count: 1, id: "mahoutsukai:guidebook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D41487500000001"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "mahoutsukai:attuner"
+			}
+			id: "4D41487500000002"
+			optional: true
+			rewards: [{
+				id: "4D41487530000002"
+				type: "xp"
+				xp: 20
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4D41487520000002"
+				item: { count: 1, id: "mahoutsukai:attuner" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D41487500000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "mahoutsukai:mahoujin_projector"
+			}
+			id: "4D41487500000003"
+			optional: true
+			rewards: [{
+				id: "4D41487530000003"
+				type: "xp"
+				xp: 25
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4D41487520000003"
+				item: { count: 1, id: "mahoutsukai:mahoujin_projector" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D41487500000003"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "mahoutsukai:mystic_code"
+			}
+			id: "4D41487500000004"
+			optional: true
+			rewards: [{
+				id: "4D41487530000004"
+				type: "xp"
+				xp: 25
+			}]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4D41487520000004"
+				item: { count: 1, id: "mahoutsukai:mystic_code" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D41487500000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "mahoutsukai:scroll_familiars_garden"
+			}
+			id: "4D41487500000005"
+			optional: true
+			rewards: [
+				{
+					id: "4D41487530000005"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "49CC0F1EEDC238D9"
+					item: {
+						count: 1
+						id: "mahoutsukai:scroll_familiars_garden"
+					}
+					type: "item"
+				}
+				{
+					id: "3E8FC0C1FAC9A301"
+					table_id: 2034462813613052537L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4D41487520000005"
+				item: { components: { "ftbfiltersystem:filter": "root(or(item(mahoutsukai:scroll_familiars_garden),item(mahoutsukai:scroll_gandr),item(mahoutsukai:scroll_fay_sight)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D41487500000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "mahoutsukai:mystic_staff"
+			}
+			id: "4D41487500000006"
+			optional: true
+			rewards: [
+				{
+					id: "4D41487530000006"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "15AF4393223D1617"
+					item: {
+						count: 1
+						id: "mahoutsukai:mystic_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "12A2E3403CB1017E"
+					table_id: 2034462813613052537L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4D41487520000006"
+				item: { count: 1, id: "mahoutsukai:mystic_staff" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+}

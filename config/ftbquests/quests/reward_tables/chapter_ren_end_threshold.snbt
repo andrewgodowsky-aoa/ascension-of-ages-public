@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:spider_eye"
+	}
+	id: "286B75E344CE473D"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{
+			count: 4
+			id: "7F5DBA33CC70F0B0"
+			item: {
+				count: 1
+				id: "minecraft:birch_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "2BAD2F2754046010"
+			item: {
+				count: 1
+				id: "minecraft:jungle_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "3FB2DC444E264C2A"
+			item: {
+				count: 1
+				id: "minecraft:acacia_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "76871C14E9E5DDAD"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "5A679B535E968336"
+			item: {
+				count: 1
+				id: "oceansdelight:guardian_soup"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,2030 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "ir_modern_industrialization_steam_industry"
+	group: "3F77A31B7D30C0AA"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "modern_industrialization:large_steam_boiler"
+	}
+	id: "4954020000000000"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B0310A0000000F0"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "modern_industrialization:forge_hammer"
+			}
+			id: "4954021000000002"
+			rewards: [{
+				id: "4954023000002000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000002000"
+				item: { count: 1, id: "modern_industrialization:forge_hammer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954021000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:coke_oven"
+			}
+			id: "4954021000000004"
+			rewards: [{
+				id: "4954023000004000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000004000"
+				item: { count: 1, id: "modern_industrialization:coke_oven" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954021000000004"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:steam_blast_furnace"
+			}
+			id: "4954021000000006"
+			rewards: [{
+				id: "4954023000006000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000006000"
+				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:large_steam_boiler"
+			}
+			id: "4954021000000007"
+			rewards: [{
+				id: "4954023000007000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000007000"
+				item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:steam_quarry"
+			}
+			id: "4954021000000009"
+			rewards: [
+				{
+					id: "4954023000009000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0EB27743255E0D7C"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000009000"
+				item: { count: 1, id: "modern_industrialization:steam_quarry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4954021000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:large_tank"
+			}
+			id: "495402100000000A"
+			rewards: [{
+				id: "495402300000A000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000A000"
+				item: { count: 1, id: "modern_industrialization:large_tank" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:bronze_macerator"
+			}
+			id: "495402100000000C"
+			rewards: [
+				{
+					id: "495402300000C000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6EB9269C6628AF65"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000C000"
+				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:bronze_compressor"
+			}
+			id: "495402100000000D"
+			rewards: [
+				{
+					id: "495402300000D000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0D358ACC4551FB55"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000D000"
+				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:steel_wiremill"
+			}
+			id: "495402100000000E"
+			rewards: [{
+				id: "495402300000E000"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000E000"
+				item: { count: 1, id: "modern_industrialization:steel_wiremill" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:bronze_mixer"
+			}
+			id: "495402100000000F"
+			rewards: [
+				{
+					id: "495402300000F000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3441D5A268688730"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000F000"
+				item: { count: 1, id: "modern_industrialization:bronze_mixer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4954021000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:large_steam_furnace"
+			}
+			id: "4954021000000010"
+			rewards: [
+				{
+					id: "4954023000010000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7F69A446B66AE448"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000010000"
+				item: { count: 1, id: "extended_industrialization:large_steam_furnace" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4954021000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:large_steam_macerator"
+			}
+			id: "4954021000000011"
+			rewards: [{
+				id: "4954023000011000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000011000"
+				item: { count: 1, id: "extended_industrialization:large_steam_macerator" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4954021000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:steam_farmer"
+			}
+			id: "4954021000000012"
+			rewards: [
+				{
+					id: "4954023000012000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "33E17E175E14B499"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000012000"
+				item: { count: 1, id: "extended_industrialization:steam_farmer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:steel_barrel"
+			}
+			id: "4954021000000014"
+			rewards: [
+				{
+					id: "4954023000014000"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "204DD2F9FCEA2E05"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000014000"
+				item: { count: 1, id: "modern_industrialization:steel_barrel" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4954021000000004"
+				"4954021000000006"
+				"4954021000000007"
+				"4954021000000011"
+			]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "extended_industrialization:large_steam_macerator"
+			}
+			id: "4954021000000016"
+			rewards: [{
+				auto: "invisible"
+				id: "4954023000016002"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "ir_factory_discipline_complete"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000016000"
+				item: { count: 1, id: "extended_industrialization:large_steam_furnace" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4954021000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:steel_boiler"
+			}
+			id: "4954021000000017"
+			rewards: [
+				{
+					id: "51E88FE3CDE79CAD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4EC524F73DBDBECA"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000017"
+				item: { count: 1, id: "modern_industrialization:steel_boiler" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:assembler"
+			}
+			id: "4954021000000018"
+			rewards: [
+				{
+					id: "53DC90C1EAE5C0A0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "598986E269B2761A"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000018"
+				item: { count: 1, id: "modern_industrialization:assembler" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:basic_machine_hull"
+			}
+			id: "4954021000000019"
+			rewards: [{
+				id: "475217D0340F58F7"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000019"
+				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_furnace"
+			}
+			id: "495402100000001A"
+			rewards: [{
+				id: "1B668E680254FB76"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000001A"
+				item: { count: 1, id: "modern_industrialization:electric_furnace" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_macerator"
+			}
+			id: "495402100000001B"
+			rewards: [
+				{
+					id: "26A25D522FC6015F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5727222C021EA33D"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000001B"
+				item: { count: 1, id: "modern_industrialization:electric_macerator" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_compressor"
+			}
+			id: "495402100000001C"
+			rewards: [{
+				id: "7D126002E40D19ED"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000001C"
+				item: { count: 1, id: "modern_industrialization:electric_compressor" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_cutting_machine"
+			}
+			id: "495402100000001D"
+			rewards: [{
+				id: "568B2EFC5838CC0B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000001D"
+				item: { count: 1, id: "modern_industrialization:electric_cutting_machine" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_mixer"
+			}
+			id: "495402100000001E"
+			rewards: [{
+				id: "6BE3A6DB985FA60B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000001E"
+				item: { count: 1, id: "modern_industrialization:electric_mixer" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_packer"
+			}
+			id: "495402100000001F"
+			rewards: [{
+				id: "45E58C766C8232B9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000001F"
+				item: { count: 1, id: "modern_industrialization:electric_packer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_unpacker"
+			}
+			id: "4954021000000020"
+			rewards: [{
+				id: "6A429A97CB994408"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000020"
+				item: { count: 1, id: "modern_industrialization:electric_unpacker" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_water_pump"
+			}
+			id: "4954021000000021"
+			rewards: [{
+				id: "5A8F6FD88BC38B7D"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000021"
+				item: { count: 1, id: "modern_industrialization:electric_water_pump" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["495402100000001A"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:electric_blast_furnace"
+			}
+			id: "4954021000000022"
+			rewards: [{
+				id: "5422FDE8850CF0AE"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000022"
+				item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:polarizer"
+			}
+			id: "4954021000000023"
+			rewards: [{
+				id: "6A64965A956233F5"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000023"
+				item: { count: 1, id: "modern_industrialization:polarizer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:lv_diesel_generator"
+			}
+			id: "4954021000000024"
+			rewards: [{
+				id: "47E50F2499DF8205"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000024"
+				item: { count: 1, id: "modern_industrialization:lv_diesel_generator" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4954021000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			id: "4954021000000025"
+			rewards: [{
+				id: "10B426D26F0D23F7"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000025"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4954021000000024"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:lv_storage_unit"
+			}
+			id: "4954021000000026"
+			rewards: [{
+				id: "0C08BF120B484AF2"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000026"
+				item: { count: 1, id: "modern_industrialization:lv_storage_unit" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4954021000000026"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:lv_mv_transformer"
+			}
+			id: "4954021000000027"
+			rewards: [{
+				id: "0197CEFCCEC2FC90"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000027"
+				item: { count: 1, id: "modern_industrialization:lv_mv_transformer" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:configurable_chest"
+			}
+			id: "4954021000000028"
+			rewards: [{
+				id: "1181D6E07B42DF93"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000028"
+				item: { count: 1, id: "modern_industrialization:configurable_chest" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:configurable_tank"
+			}
+			id: "4954021000000029"
+			rewards: [{
+				id: "67E9567D79DF58D6"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000029"
+				item: { count: 1, id: "modern_industrialization:configurable_tank" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["495402100000000A"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:large_tank_hatch"
+			}
+			id: "495402100000002A"
+			rewards: [{
+				id: "52449DD5999E32C0"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000002A"
+				item: { count: 1, id: "modern_industrialization:large_tank_hatch" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:trash_can"
+			}
+			id: "495402100000002B"
+			rewards: [{
+				id: "636744D625741F04"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000002B"
+				item: { count: 1, id: "modern_industrialization:trash_can" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:steel_item_input_hatch"
+			}
+			id: "495402100000002C"
+			rewards: [{
+				id: "1DB10B7F1D2DF6A7"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000002C"
+				item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["495402100000002C"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:steel_item_output_hatch"
+			}
+			id: "495402100000002D"
+			rewards: [{
+				id: "4F7ECF1DBFB02B1A"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000002D"
+				item: { count: 1, id: "modern_industrialization:steel_item_output_hatch" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:lv_energy_input_hatch"
+			}
+			id: "495402100000002E"
+			rewards: [{
+				id: "248D8D5467DE402D"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000002E"
+				item: { count: 1, id: "modern_industrialization:lv_energy_input_hatch" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["495402100000002E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "modern_industrialization:lv_energy_output_hatch"
+			}
+			id: "495402100000002F"
+			rewards: [{
+				id: "350FA1F99A00314E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "495402200000002F"
+				item: { count: 1, id: "modern_industrialization:lv_energy_output_hatch" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4954021000000007"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:steel_solar_boiler"
+			}
+			id: "4954021000000030"
+			rewards: [{
+				id: "17006AAE14BB2B67"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000030"
+				item: { count: 1, id: "extended_industrialization:steel_solar_boiler" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:electric_alloy_smelter"
+			}
+			id: "4954021000000031"
+			rewards: [{
+				id: "69D75805C40CAAD4"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000031"
+				item: { count: 1, id: "extended_industrialization:electric_alloy_smelter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:electric_brewery"
+			}
+			id: "4954021000000032"
+			rewards: [{
+				id: "6E5A49E2E44BA582"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000032"
+				item: { count: 1, id: "extended_industrialization:electric_brewery" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:electric_canning_machine"
+			}
+			id: "4954021000000033"
+			rewards: [{
+				id: "47CF70581495C1A8"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000033"
+				item: { count: 1, id: "extended_industrialization:electric_canning_machine" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:electric_composter"
+			}
+			id: "4954021000000034"
+			rewards: [{
+				id: "5E6718AC0477035D"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000034"
+				item: { count: 1, id: "extended_industrialization:electric_composter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:electric_honey_extractor"
+			}
+			id: "4954021000000035"
+			rewards: [{
+				id: "0E811DFDFB4BE1EC"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000035"
+				item: { count: 1, id: "extended_industrialization:electric_honey_extractor" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4954021000000019"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			icon: {
+				id: "extended_industrialization:electric_waste_collector"
+			}
+			id: "4954021000000036"
+			rewards: [{
+				id: "08D514F25AE62A57"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000036"
+				item: { count: 1, id: "extended_industrialization:electric_waste_collector" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4954021000000006"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000D1"
+			rewards: [
+				{
+					id: "0B033080000000D1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0B033080000000D0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000D1"
+				item: { count: 1, id: "modern_industrialization:steel_dust" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["495402100000000E"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			icon: {
+				id: "modern_industrialization:steam_mining_drill"
+			}
+			id: "4954021000000040"
+			optional: true
+			rewards: [
+				{
+					id: "4954023000000040"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7FC270B5A720396B"
+					table_id: 3871504797669371230L
+					type: "loot"
+				}
+			]
+			tags: ["aoa_side"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "4954022000000040"
+				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4954021000000002"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000E1"
+			rewards: [{
+				id: "0B033080000000E1"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000E1"
+				item: { count: 1, id: "modern_industrialization:bronze_plate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B031080000000E1"]
+			entity_vis_size: 1.0f
+			hide_until_deps_visible: true
+			id: "0B031080000000E2"
+			rewards: [{
+				id: "0B033080000000E2"
+				type: "xp"
+				xp: 15
+			}]
+			tags: ["aoa_main"]
+			tasks: [{
+				PlayerSpells: {
+					check: 0b
+					mode: "ALL"
+					required: 0L
+					spells: [ ]
+				}
+				SkillsLevel: {
+					category: ""
+					check: 0b
+					comparison: "GREATER_OR_EQUAL"
+					first: 10
+					mode: "TOTAL_LEVEL"
+					second: 20
+				}
+				id: "0B032080000000E2"
+				item: { count: 1, id: "modern_industrialization:bronze_gear" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

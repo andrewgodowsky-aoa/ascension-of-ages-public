@@ -1,0 +1,60 @@
+name: Source check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  guard-source-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Reject accidental binary/runtime commits
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Runtime dirs are anchored to the repo root: nested segments named
+          # "mods" are legitimate (e.g. Modonomicon entries/mods/ categories).
+          forbidden_regex='^(mods|saves|logs|resourcepacks|shaderpacks|journeymap|backup|downloads|dynamic-data-pack-cache|dynamic-resource-pack-cache)/|\.jar$|\.zip$|\.mrpack$|\.mca$'
+          matches="$(git ls-files | grep -E "$forbidden_regex" || true)"
+          if [ -n "$matches" ]; then
+            echo "Forbidden runtime or binary files are tracked:"
+            echo "$matches"
+            exit 1
+          fi
+
+      - name: Reject generated root config directories
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          allowed_roots='^(\.github|\.superpowers|\.aoa_reveal_audit|config|configureddefaults|defaultconfigs|kubejs|datapacks|docs|tools|progression|_aoa_optional_datapacks)$'
+          unexpected_roots="$(git ls-files | awk -F/ 'NF > 1 { print $1 }' | sort -u | grep -Ev "$allowed_roots" || true)"
+          if [ -n "$unexpected_roots" ]; then
+            echo "Unexpected top-level directories are tracked:"
+            echo "$unexpected_roots"
+            echo "Root mod config directories should stay local; track source under config/, kubejs/, docs/, etc."
+            exit 1
+          fi
+
+      - name: Warn on unusually large tracked files
+        shell: bash
+        run: |
+          set -euo pipefail
+          limit=$((50 * 1024 * 1024))
+          while IFS= read -r file; do
+            size=$(wc -c < "$file")
+            if [ "$size" -gt "$limit" ]; then
+              echo "Tracked file exceeds 50 MiB: $file ($size bytes)"
+              exit 1
+            fi
+          done < <(git ls-files)
+
+      # The recipe-output policy audit step was removed 2026-07-10: it invoked
+      # tools/aoa_recipe_output_audit.py, which was never committed to this
+      # repo, so the step could never pass. Restore the step when the tool
+      # itself lands in tools/ (its CI mode should cover the drift check
+      # against kubejs/server_scripts/zz_aoa_recipe_output_policy.js).

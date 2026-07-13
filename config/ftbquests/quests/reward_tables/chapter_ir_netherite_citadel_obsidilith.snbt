@@ -1,0 +1,51 @@
+{
+	icon: {
+		id: "minecraft:nether_brick"
+	}
+	id: "46F0F71A8DA94DE9"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			count: 4
+			id: "17AF01B1D01042C4"
+			item: {
+				count: 1
+				id: "minecraft:nether_brick"
+			}
+		}
+		{
+			count: 4
+			id: "41F8ED4CE3D0F3F6"
+			item: {
+				count: 1
+				id: "minecraft:cracked_nether_bricks"
+			}
+		}
+		{
+			count: 4
+			id: "344EE054360BF8FC"
+			item: {
+				count: 1
+				id: "minecraft:chiseled_nether_bricks"
+			}
+		}
+		{
+			count: 4
+			id: "6BD67B2605CEDEC2"
+			item: {
+				count: 1
+				id: "minecraft:polished_blackstone_bricks"
+			}
+		}
+		{
+			count: 4
+			id: "68944D2A7ED76C42"
+			item: {
+				count: 1
+				id: "minecraft:cracked_polished_blackstone_bricks"
+			}
+		}
+	]
+	use_title: true
+}

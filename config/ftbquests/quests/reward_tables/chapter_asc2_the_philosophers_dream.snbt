@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:golden_apple"
+	}
+	id: "6AFEA479B573019F"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 8
+			id: "6AFEA479B5730101"
+			item: {
+				count: 1
+				id: "minecraft:firework_star"
+			}
+		}
+		{
+			count: 8
+			id: "6AFEA479B5730102"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+		}
+		{
+			count: 8
+			id: "6AFEA479B5730103"
+			item: {
+				count: 1
+				id: "minecraft:milk_bucket"
+			}
+		}
+		{
+			count: 8
+			id: "6AFEA479B5730104"
+			item: {
+				count: 1
+				id: "minecraft:glistering_melon_slice"
+			}
+		}
+		{
+			count: 4
+			id: "6AFEA479B5730105"
+			item: {
+				count: 1
+				id: "minecraft:nautilus_shell"
+			}
+		}
+		{
+			count: 8
+			id: "6AFEA479B5730106"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+		}
+	]
+	use_title: true
+}

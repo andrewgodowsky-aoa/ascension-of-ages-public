@@ -1,0 +1,59 @@
+{
+	icon: {
+		id: "minecraft:chorus_fruit"
+	}
+	id: "642651F03B2E8026"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "642651F03B2E8001"
+			item: {
+				count: 1
+				id: "minecraft:chorus_fruit"
+			}
+		}
+		{
+			count: 8
+			id: "642651F03B2E8002"
+			item: {
+				count: 1
+				id: "minecraft:popped_chorus_fruit"
+			}
+		}
+		{
+			count: 8
+			id: "642651F03B2E8003"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 4
+			id: "642651F03B2E8004"
+			item: {
+				count: 1
+				id: "minecraft:music_disc_chirp"
+			}
+		}
+		{
+			count: 8
+			id: "642651F03B2E8005"
+			item: {
+				count: 1
+				id: "minecraft:sweet_berries"
+			}
+		}
+		{
+			count: 8
+			id: "642651F03B2E8006"
+			item: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+		}
+	]
+	use_title: true
+}
