@@ -2422,11 +2422,11 @@
 	quest.3400000000001116.quest_subtitle: "Smelting, faster cooking, and steady light."
 	quest.3400000000001116.title: "Furnace"
 	quest.3400000000001119.quest_desc: [
-		"Craft a Bed and sleep in it once to lock your spawn point. Any bed works here, so the color does not matter and modded beds like the skyroot or fancy variants count the same. Wool comes from sheep or string, so a few shears save you a long detour."
-		"Sleeping also skips the night, which is the cheapest way to avoid the mobs a fresh base cannot fight off yet."
+		"Craft or find any bed and keep it in your inventory to complete this task. The filter checks the &b#minecraft:beds&r tag, so colored beds and modded beds count when they are tagged as beds."
+		"Use it to set your spawn before you wander."
 	]
-	quest.3400000000001119.quest_subtitle: "Set your spawn before you wander."
-	quest.3400000000001119.title: "Bed"
+	quest.3400000000001119.quest_subtitle: "Set your spawn with any bed."
+	quest.3400000000001119.title: "Any Bed"
 	quest.340000000000111C.quest_desc: [
 		"Build a pair of chests. Free inventory space means you carry tools and food instead of dirt, and a sorted base saves real time once production picks up."
 		"Put them by the &bfurnace&r and crafting table so the things you use most are one step away."
@@ -9662,7 +9662,7 @@
 	task.14B35990436DE0C7.title: "Any #minecraft:saplings"
 	task.27E41277895F6CF7.title: "Any #c:ingots/brass"
 	task.2B8B15600CCA2F17.title: "Unknown type: random"
-	task.340000000000111A.title: "Any Bed"
+	task.340000000000111A.title: "Any #minecraft:beds"
 	task.4256012000EE0002.title: "Any Sentient Armor"
 	task.4256012000EE0003.title: "Any Sentient Tool"
 	task.4256012000EE0005.title: "Any Spiritus Gem"
