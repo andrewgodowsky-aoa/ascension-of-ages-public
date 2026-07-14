@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_cluster",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:efficiency": 1
+        }
+      }
+    },
+    "title": {
+      "text": "Magic and Innovation",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Advancing through ethereal means",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/the_renaissance"
+}

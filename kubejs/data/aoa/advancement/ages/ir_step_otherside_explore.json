@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:warden_spawn_egg",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:efficiency": 1
+        }
+      }
+    },
+    "title": {
+      "text": "The Otherside",
+      "color": "dark_blue"
+    },
+    "description": {
+      "text": "How far down can you go?",
+      "color": "aqua"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/industrial_revolution"
+}

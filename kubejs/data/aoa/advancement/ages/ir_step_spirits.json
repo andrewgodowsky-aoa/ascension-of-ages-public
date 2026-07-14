@@ -5,21 +5,26 @@
     }
   },
   "requirements": [
-    ["granted_by_shim"]
+    [
+      "granted_by_shim"
+    ]
   ],
   "display": {
     "icon": {
-      "id": "minecraft:piston"
+      "id": "malum:arcane_spirit"
     },
     "title": {
-      "translate": "advancement.aoa.age.industrial_revolution.title"
+      "text": "Let the Spirits Free",
+      "color": "dark_red"
     },
     "description": {
-      "translate": "advancement.aoa.age.industrial_revolution.description"
+      "text": "Harnessed the energy of spirits",
+      "color": "black"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
-  }
+  },
+  "parent": "aoa:ages/industrial_revolution"
 }

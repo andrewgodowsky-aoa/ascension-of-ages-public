@@ -5,21 +5,24 @@
     }
   },
   "requirements": [
-    ["granted_by_shim"]
+    [
+      "granted_by_shim"
+    ]
   ],
   "display": {
     "icon": {
-      "id": "minecraft:campfire"
+      "id": "minecraft:ender_pearl"
     },
     "title": {
-      "translate": "advancement.aoa.age.dark_ages.title"
+      "translate": "advancement.aoa.journey.grove_trials.title"
     },
     "description": {
-      "translate": "advancement.aoa.age.dark_ages.description"
+      "translate": "advancement.aoa.journey.grove_trials.description"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
-  }
+  },
+  "parent": "aoa:ages/medieval_times"
 }

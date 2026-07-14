@@ -5,21 +5,26 @@
     }
   },
   "requirements": [
-    ["granted_by_shim"]
+    [
+      "granted_by_shim"
+    ]
   ],
   "display": {
     "icon": {
-      "id": "minecraft:iron_ingot"
+      "id": "pneumaticcraft:pressure_gauge"
     },
     "title": {
-      "translate": "advancement.aoa.age.medieval_times.title"
+      "text": "Under Pressure",
+      "color": "black"
     },
     "description": {
-      "translate": "advancement.aoa.age.medieval_times.description"
+      "text": "Begun with manufacturing resources",
+      "color": "gray"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
-  }
+  },
+  "parent": "aoa:ages/industrial_revolution"
 }

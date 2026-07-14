@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "enderio:basic_item_filter"
+    },
+    "title": {
+      "text": "No Peace to Logical Life",
+      "color": "dark_green"
+    },
+    "description": {
+      "text": "Did some cable management",
+      "color": "#04D9FF"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/industrial_revolution"
+}

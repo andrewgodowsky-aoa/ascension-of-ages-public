@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "immersiveengineering:connector_lv"
+    },
+    "title": {
+      "text": "Right Round",
+      "color": "#E1C16E"
+    },
+    "description": {
+      "text": "Brought electricity to Create",
+      "color": "white"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/industrial_revolution"
+}
