@@ -103,7 +103,8 @@
 	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["minecraft:hero_of_the_village"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
-	unhandled_harmful_effects = ["minecraft:nausea"]
+	# Keep ballistix:virus out: Plague Bringer was applying it, then it spread permanently and wore armor.
+	unhandled_harmful_effects = ["minecraft:nausea", "ballistix:virus"]
 	#Allows to limit the damages done by Decrepitude
 	# Default: 2147483647
 	# Range: > 1
