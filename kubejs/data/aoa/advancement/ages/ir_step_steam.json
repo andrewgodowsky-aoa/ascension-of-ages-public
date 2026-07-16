@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "create:steam_whistle"
+    },
+    "title": {
+      "text": "Full Steam Ahead",
+      "color": "#2fbfff"
+    },
+    "description": {
+      "text": "Harness the power of steam",
+      "color": "white"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/industrial_revolution"
+}

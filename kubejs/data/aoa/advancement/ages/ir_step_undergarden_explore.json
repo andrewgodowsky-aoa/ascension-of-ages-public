@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:efficiency": 1
+        }
+      }
+    },
+    "title": {
+      "text": "Vernal Ventures",
+      "color": "dark_green"
+    },
+    "description": {
+      "text": "Survived a world of vegetation",
+      "color": "blue"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/industrial_revolution"
+}

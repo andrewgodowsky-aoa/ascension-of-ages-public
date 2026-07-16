@@ -9,14 +9,16 @@
   ],
   "display": {
     "icon": {
-      "id": "minecraft:enchanted_book"
+      "id": "minecraft:campfire"
     },
     "title": {
-      "translate": "advancement.aoa.age.the_renaissance.title"
+      "text": "Journey of Ages",
+      "color": "gold"
     },
     "description": {
-      "translate": "advancement.aoa.age.the_renaissance.description"
+      "translate": "advancement.aoa.age.dark_ages.description"
     },
+    "background": "minecraft:textures/block/mossy_stone_bricks.png",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": false,

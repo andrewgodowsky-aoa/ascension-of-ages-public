@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
+    },
+    "title": {
+      "text": "Scorched Hero",
+      "color": "red"
+    },
+    "description": {
+      "text": "Emerged from the world below",
+      "color": "black"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/the_renaissance"
+}

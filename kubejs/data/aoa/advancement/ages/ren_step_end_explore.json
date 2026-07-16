@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:efficiency": 1
+        }
+      }
+    },
+    "title": {
+      "text": "Not Quite an Ending",
+      "color": "yellow"
+    },
+    "description": {
+      "text": "Visited a dead universe",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/the_renaissance"
+}

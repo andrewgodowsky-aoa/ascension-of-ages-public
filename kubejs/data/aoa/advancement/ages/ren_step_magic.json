@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted_by_shim": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "granted_by_shim"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book",
+      "components": {
+        "minecraft:enchantments": {
+          "minecraft:efficiency": 1
+        }
+      }
+    },
+    "title": {
+      "text": "Professor of the Arts",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Certified for teaching a mystic art",
+      "color": "dark_aqua"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "aoa:ages/the_renaissance"
+}

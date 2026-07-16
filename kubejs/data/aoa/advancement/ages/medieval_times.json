@@ -9,17 +9,18 @@
   ],
   "display": {
     "icon": {
-      "id": "minecraft:gold_ingot"
+      "id": "minecraft:iron_ingot"
     },
     "title": {
-      "translate": "advancement.aoa.age.gilded_age.title"
+      "translate": "advancement.aoa.age.medieval_times.title"
     },
     "description": {
-      "translate": "advancement.aoa.age.gilded_age.description"
+      "translate": "advancement.aoa.age.medieval_times.description"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
-  }
+  },
+  "parent": "aoa:ages/dark_ages"
 }
